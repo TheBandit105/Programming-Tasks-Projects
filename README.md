@@ -1,2 +1,2 @@
-# Python-Tasks-Projects
-All the Python tasks and projects will be added here.
+# Programming-Tasks-Projects
+All the programming tasks and projects will be added here.
