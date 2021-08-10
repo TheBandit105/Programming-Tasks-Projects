@@ -41,6 +41,33 @@ label6.configure(text = '...')
 
 resBtn.configure(state = DISABLED)
 
+# Dynamic Properties:
+from random import sample
+
+def pick():
+    nums = sample(range(1, 49), 6)
+    label1.configure(text = nums[0])
+    label2.configure(text = nums[1])
+    label3.configure(text = nums[2])
+    label4.configure(text = nums[3])
+    label5.configure(text = nums[4])
+    label6.configure(text = nums[5])
+    getBtn.configure(state = DISABLED)
+    resBtn.configure(state = NORMAL)
+
+def reset():
+    label1.configure(text = '...')
+    label2.configure(text = '...')
+    label3.configure(text = '...')
+    label4.configure(text = '...')
+    label5.configure(text = '...')
+    label6.configure(text = '...')
+    getBtn.configure(state = NORMAL)
+    resBtn.configure(state = DISABLED)
+
+getBtn.configure(command = pick)
+resBtn.configure(command = reset)
+
 # Sustain window:
 window.mainloop()
 
