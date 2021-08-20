@@ -33,7 +33,8 @@ while True:
         print('You won!')
         player_point += 1
         continue
-
+    
+    # In case the computer tied with player, no points are awarded.
     elif rpsinput == 'rock' and computer_play == 'rock':
         print('A tie, play again!')
         continue
