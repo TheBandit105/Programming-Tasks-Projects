@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Arial";
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 110, 53);
+}
+
+.welcome_text {
+    width: 400px;
+}
+
+.info_text{
+    width: 400px;
+}
+
+.info_text2{
+    position: relative;
+    bottom: -75px;
+    width: 400px;
+}
+
+.title_text{
+    position: relative;
+    top: -200px;
+    right: 40px;
+    width: 500px;
+}
+
+.welcome_form input,
+.welcome_form button {
+    display: block;
+    width: 100%;
+}
+
+.welcome_form input {
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.welcome_form button{
+    font-size: 22px;
+    padding: 20px 0;
+    border: none;
+    background-color: yellow;
+    color: rgb(94, 14, 0);
+    border-radius: 100px;
+    transition: 0.4s all;
+}
+
+.welcome_form button:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.welcome_form input:focus,
+.welcome_form button:focus {
+    outline: none;
+}
+
+.quiz{
+    border-radius: 3px;
+    display: grid;
+    grid-template-rows: 60px auto;
+    width: 800px;
+    height: 500px;
+    background-color: aqua;
+}
+
+.quiz_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(187, 255, 0);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.quiz_body{
+    padding: 30px;
+    background-color: darkorange;
+}
+
+.quiz_user{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.quiz_timer{
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    color: black;
+    padding: 0 30px;
+}
+
+.option_group {
+    list-style-type: none;
+    margin: 30px 0;
+}
+
+.option {
+    background-color: rgb(240, 219, 36);
+    width: 300px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 100px;
+    border: 2px solid transparent;
+}
+
+.option:hover {
+    cursor: pointer;
+    border: 2px solid rgb(0, 255, 170);
+    color: magenta;
+}
+
+.btn-next {
+    background-color: mediumturquoise;
+    color: black;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 27px;
+    transition: 0.4s all;
+}
+
+.btn-next:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn-previous {
+    background-color: mediumturquoise;
+    color: black;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 27px;
+    transition: 0.4s all;
+}
+
+.btn-previous:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.rst-button {
+    position: relative;
+    right: -900px;
+    top: -300px;
+    background-color: rgb(72, 159, 209);
+    color: black;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 27px;
+    transition: 0.4s all;
+}
+
+.rst-button:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+    color: black;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.homepage-button {
+    position: relative;
+    right: -745px;
+    top: -225px;
+    background-color: rgb(72, 159, 209);
+    color: black;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 27px;
+    transition: 0.4s all;
+}
+
+.homepage-button:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+    color: black;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.active {
+    background-color: springgreen;
+}
+
+.medal_icon {
+    font-size: 250px;
+    color: black;
+}
+
+.user_name, 
+.user_points, 
+.user_time {
+color: black;
+text-align: center;
+margin-top: 15px;
+}
+
+
+
+
