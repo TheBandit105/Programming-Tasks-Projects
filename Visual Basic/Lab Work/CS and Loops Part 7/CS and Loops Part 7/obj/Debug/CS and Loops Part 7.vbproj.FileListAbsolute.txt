@@ -1,0 +1,11 @@
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS and Loops Part 7\CS and Loops Part 7\bin\Debug\CS and Loops Part 7.exe.config
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS and Loops Part 7\CS and Loops Part 7\bin\Debug\CS and Loops Part 7.exe
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS and Loops Part 7\CS and Loops Part 7\bin\Debug\CS and Loops Part 7.pdb
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS and Loops Part 7\CS and Loops Part 7\bin\Debug\CS and Loops Part 7.xml
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS and Loops Part 7\CS and Loops Part 7\obj\Debug\CS and Loops Part 7.vbprojAssemblyReference.cache
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS and Loops Part 7\CS and Loops Part 7\obj\Debug\CS_and_Loops_Part_7.Resources.resources
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS and Loops Part 7\CS and Loops Part 7\obj\Debug\CS and Loops Part 7.vbproj.GenerateResource.cache
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS and Loops Part 7\CS and Loops Part 7\obj\Debug\CS and Loops Part 7.vbproj.CoreCompileInputs.cache
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS and Loops Part 7\CS and Loops Part 7\obj\Debug\CS and Loops Part 7.exe
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS and Loops Part 7\CS and Loops Part 7\obj\Debug\CS and Loops Part 7.xml
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS and Loops Part 7\CS and Loops Part 7\obj\Debug\CS and Loops Part 7.pdb
