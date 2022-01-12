@@ -1,0 +1,11 @@
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part III\Lab 4 Functions Part III\obj\Debug\Lab 4 Functions Part III.vbprojAssemblyReference.cache
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part III\Lab 4 Functions Part III\obj\Debug\Lab_4_Functions_Part_III.Resources.resources
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part III\Lab 4 Functions Part III\obj\Debug\Lab 4 Functions Part III.vbproj.GenerateResource.cache
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part III\Lab 4 Functions Part III\obj\Debug\Lab 4 Functions Part III.vbproj.CoreCompileInputs.cache
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part III\Lab 4 Functions Part III\bin\Debug\Lab 4 Functions Part III.exe.config
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part III\Lab 4 Functions Part III\bin\Debug\Lab 4 Functions Part III.exe
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part III\Lab 4 Functions Part III\bin\Debug\Lab 4 Functions Part III.pdb
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part III\Lab 4 Functions Part III\bin\Debug\Lab 4 Functions Part III.xml
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part III\Lab 4 Functions Part III\obj\Debug\Lab 4 Functions Part III.exe
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part III\Lab 4 Functions Part III\obj\Debug\Lab 4 Functions Part III.xml
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part III\Lab 4 Functions Part III\obj\Debug\Lab 4 Functions Part III.pdb

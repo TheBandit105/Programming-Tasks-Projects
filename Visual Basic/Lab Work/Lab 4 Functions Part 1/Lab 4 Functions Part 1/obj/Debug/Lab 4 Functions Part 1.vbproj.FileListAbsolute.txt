@@ -1,0 +1,11 @@
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part 1\Lab 4 Functions Part 1\bin\Debug\Lab 4 Functions Part 1.exe.config
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part 1\Lab 4 Functions Part 1\bin\Debug\Lab 4 Functions Part 1.exe
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part 1\Lab 4 Functions Part 1\bin\Debug\Lab 4 Functions Part 1.pdb
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part 1\Lab 4 Functions Part 1\bin\Debug\Lab 4 Functions Part 1.xml
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part 1\Lab 4 Functions Part 1\obj\Debug\Lab 4 Functions Part 1.vbprojAssemblyReference.cache
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part 1\Lab 4 Functions Part 1\obj\Debug\Lab_4_Functions_Part_1.Resources.resources
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part 1\Lab 4 Functions Part 1\obj\Debug\Lab 4 Functions Part 1.vbproj.GenerateResource.cache
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part 1\Lab 4 Functions Part 1\obj\Debug\Lab 4 Functions Part 1.vbproj.CoreCompileInputs.cache
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part 1\Lab 4 Functions Part 1\obj\Debug\Lab 4 Functions Part 1.exe
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part 1\Lab 4 Functions Part 1\obj\Debug\Lab 4 Functions Part 1.xml
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 4 Functions Part 1\Lab 4 Functions Part 1\obj\Debug\Lab 4 Functions Part 1.pdb
