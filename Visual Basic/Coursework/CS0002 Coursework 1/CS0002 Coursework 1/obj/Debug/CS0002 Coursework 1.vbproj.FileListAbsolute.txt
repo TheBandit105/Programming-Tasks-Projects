@@ -1,0 +1,10 @@
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS0002 Coursework 1\CS0002 Coursework 1\bin\Debug\CS0002 Coursework 1.exe.config
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS0002 Coursework 1\CS0002 Coursework 1\bin\Debug\CS0002 Coursework 1.exe
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS0002 Coursework 1\CS0002 Coursework 1\bin\Debug\CS0002 Coursework 1.pdb
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS0002 Coursework 1\CS0002 Coursework 1\bin\Debug\CS0002 Coursework 1.xml
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS0002 Coursework 1\CS0002 Coursework 1\obj\Debug\CS0002_Coursework_1.Resources.resources
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS0002 Coursework 1\CS0002 Coursework 1\obj\Debug\CS0002 Coursework 1.vbproj.GenerateResource.cache
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS0002 Coursework 1\CS0002 Coursework 1\obj\Debug\CS0002 Coursework 1.vbproj.CoreCompileInputs.cache
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS0002 Coursework 1\CS0002 Coursework 1\obj\Debug\CS0002 Coursework 1.exe
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS0002 Coursework 1\CS0002 Coursework 1\obj\Debug\CS0002 Coursework 1.xml
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\CS0002 Coursework 1\CS0002 Coursework 1\obj\Debug\CS0002 Coursework 1.pdb
