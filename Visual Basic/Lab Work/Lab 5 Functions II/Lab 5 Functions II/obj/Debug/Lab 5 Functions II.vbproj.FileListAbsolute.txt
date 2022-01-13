@@ -1,0 +1,11 @@
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 5 Functions II\Lab 5 Functions II\obj\Debug\Lab 5 Functions II.vbprojAssemblyReference.cache
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 5 Functions II\Lab 5 Functions II\obj\Debug\Lab_5_Functions_II.Resources.resources
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 5 Functions II\Lab 5 Functions II\obj\Debug\Lab 5 Functions II.vbproj.GenerateResource.cache
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 5 Functions II\Lab 5 Functions II\obj\Debug\Lab 5 Functions II.vbproj.CoreCompileInputs.cache
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 5 Functions II\Lab 5 Functions II\bin\Debug\Lab 5 Functions II.exe.config
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 5 Functions II\Lab 5 Functions II\bin\Debug\Lab 5 Functions II.exe
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 5 Functions II\Lab 5 Functions II\bin\Debug\Lab 5 Functions II.pdb
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 5 Functions II\Lab 5 Functions II\bin\Debug\Lab 5 Functions II.xml
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 5 Functions II\Lab 5 Functions II\obj\Debug\Lab 5 Functions II.exe
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 5 Functions II\Lab 5 Functions II\obj\Debug\Lab 5 Functions II.xml
+C:\Users\shavi\OneDrive\Documents\Programming\Lab Work\Lab VB Projects\Lab 5 Functions II\Lab 5 Functions II\obj\Debug\Lab 5 Functions II.pdb
