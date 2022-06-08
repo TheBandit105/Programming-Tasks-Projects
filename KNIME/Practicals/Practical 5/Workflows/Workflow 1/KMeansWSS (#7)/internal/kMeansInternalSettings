@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+    <entry key="dimensions" type="xint" value="5"/>
+    <entry key="ignoredColumns" type="xint" value="1"/>
+    <config key="clusterCoverage">
+        <entry key="array-size" type="xint" value="150"/>
+        <entry key="0" type="xint" value="1"/>
+        <entry key="1" type="xint" value="1"/>
+        <entry key="2" type="xint" value="1"/>
+        <entry key="3" type="xint" value="1"/>
+        <entry key="4" type="xint" value="1"/>
+        <entry key="5" type="xint" value="1"/>
+        <entry key="6" type="xint" value="1"/>
+        <entry key="7" type="xint" value="1"/>
+        <entry key="8" type="xint" value="1"/>
+        <entry key="9" type="xint" value="3"/>
+        <entry key="10" type="xint" value="1"/>
+        <entry key="11" type="xint" value="1"/>
+        <entry key="12" type="xint" value="1"/>
+        <entry key="13" type="xint" value="1"/>
+        <entry key="14" type="xint" value="1"/>
+        <entry key="15" type="xint" value="1"/>
+        <entry key="16" type="xint" value="1"/>
+        <entry key="17" type="xint" value="1"/>
+        <entry key="18" type="xint" value="1"/>
+        <entry key="19" type="xint" value="1"/>
+        <entry key="20" type="xint" value="1"/>
+        <entry key="21" type="xint" value="1"/>
+        <entry key="22" type="xint" value="1"/>
+        <entry key="23" type="xint" value="1"/>
+        <entry key="24" type="xint" value="1"/>
+        <entry key="25" type="xint" value="1"/>
+        <entry key="26" type="xint" value="1"/>
+        <entry key="27" type="xint" value="1"/>
+        <entry key="28" type="xint" value="1"/>
+        <entry key="29" type="xint" value="1"/>
+        <entry key="30" type="xint" value="1"/>
+        <entry key="31" type="xint" value="1"/>
+        <entry key="32" type="xint" value="1"/>
+        <entry key="33" type="xint" value="1"/>
+        <entry key="34" type="xint" value="0"/>
+        <entry key="35" type="xint" value="1"/>
+        <entry key="36" type="xint" value="1"/>
+        <entry key="37" type="xint" value="0"/>
+        <entry key="38" type="xint" value="1"/>
+        <entry key="39" type="xint" value="1"/>
+        <entry key="40" type="xint" value="1"/>
+        <entry key="41" type="xint" value="1"/>
+        <entry key="42" type="xint" value="1"/>
+        <entry key="43" type="xint" value="1"/>
+        <entry key="44" type="xint" value="1"/>
+        <entry key="45" type="xint" value="1"/>
+        <entry key="46" type="xint" value="1"/>
+        <entry key="47" type="xint" value="1"/>
+        <entry key="48" type="xint" value="1"/>
+        <entry key="49" type="xint" value="1"/>
+        <entry key="50" type="xint" value="1"/>
+        <entry key="51" type="xint" value="1"/>
+        <entry key="52" type="xint" value="1"/>
+        <entry key="53" type="xint" value="1"/>
+        <entry key="54" type="xint" value="1"/>
+        <entry key="55" type="xint" value="1"/>
+        <entry key="56" type="xint" value="1"/>
+        <entry key="57" type="xint" value="1"/>
+        <entry key="58" type="xint" value="1"/>
+        <entry key="59" type="xint" value="1"/>
+        <entry key="60" type="xint" value="1"/>
+        <entry key="61" type="xint" value="1"/>
+        <entry key="62" type="xint" value="1"/>
+        <entry key="63" type="xint" value="1"/>
+        <entry key="64" type="xint" value="1"/>
+        <entry key="65" type="xint" value="1"/>
+        <entry key="66" type="xint" value="1"/>
+        <entry key="67" type="xint" value="1"/>
+        <entry key="68" type="xint" value="1"/>
+        <entry key="69" type="xint" value="1"/>
+        <entry key="70" type="xint" value="1"/>
+        <entry key="71" type="xint" value="1"/>
+        <entry key="72" type="xint" value="1"/>
+        <entry key="73" type="xint" value="1"/>
+        <entry key="74" type="xint" value="1"/>
+        <entry key="75" type="xint" value="1"/>
+        <entry key="76" type="xint" value="1"/>
+        <entry key="77" type="xint" value="1"/>
+        <entry key="78" type="xint" value="1"/>
+        <entry key="79" type="xint" value="1"/>
+        <entry key="80" type="xint" value="1"/>
+        <entry key="81" type="xint" value="1"/>
+        <entry key="82" type="xint" value="1"/>
+        <entry key="83" type="xint" value="1"/>
+        <entry key="84" type="xint" value="1"/>
+        <entry key="85" type="xint" value="1"/>
+        <entry key="86" type="xint" value="1"/>
+        <entry key="87" type="xint" value="1"/>
+        <entry key="88" type="xint" value="1"/>
+        <entry key="89" type="xint" value="1"/>
+        <entry key="90" type="xint" value="1"/>
+        <entry key="91" type="xint" value="1"/>
+        <entry key="92" type="xint" value="1"/>
+        <entry key="93" type="xint" value="1"/>
+        <entry key="94" type="xint" value="1"/>
+        <entry key="95" type="xint" value="1"/>
+        <entry key="96" type="xint" value="1"/>
+        <entry key="97" type="xint" value="1"/>
+        <entry key="98" type="xint" value="1"/>
+        <entry key="99" type="xint" value="1"/>
+        <entry key="100" type="xint" value="1"/>
+        <entry key="101" type="xint" value="2"/>
+        <entry key="102" type="xint" value="1"/>
+        <entry key="103" type="xint" value="1"/>
+        <entry key="104" type="xint" value="1"/>
+        <entry key="105" type="xint" value="1"/>
+        <entry key="106" type="xint" value="1"/>
+        <entry key="107" type="xint" value="1"/>
+        <entry key="108" type="xint" value="1"/>
+        <entry key="109" type="xint" value="1"/>
+        <entry key="110" type="xint" value="1"/>
+        <entry key="111" type="xint" value="1"/>
+        <entry key="112" type="xint" value="1"/>
+        <entry key="113" type="xint" value="1"/>
+        <entry key="114" type="xint" value="1"/>
+        <entry key="115" type="xint" value="1"/>
+        <entry key="116" type="xint" value="1"/>
+        <entry key="117" type="xint" value="1"/>
+        <entry key="118" type="xint" value="1"/>
+        <entry key="119" type="xint" value="1"/>
+        <entry key="120" type="xint" value="1"/>
+        <entry key="121" type="xint" value="1"/>
+        <entry key="122" type="xint" value="1"/>
+        <entry key="123" type="xint" value="1"/>
+        <entry key="124" type="xint" value="1"/>
+        <entry key="125" type="xint" value="1"/>
+        <entry key="126" type="xint" value="1"/>
+        <entry key="127" type="xint" value="1"/>
+        <entry key="128" type="xint" value="1"/>
+        <entry key="129" type="xint" value="1"/>
+        <entry key="130" type="xint" value="1"/>
+        <entry key="131" type="xint" value="1"/>
+        <entry key="132" type="xint" value="1"/>
+        <entry key="133" type="xint" value="1"/>
+        <entry key="134" type="xint" value="1"/>
+        <entry key="135" type="xint" value="1"/>
+        <entry key="136" type="xint" value="1"/>
+        <entry key="137" type="xint" value="1"/>
+        <entry key="138" type="xint" value="1"/>
+        <entry key="139" type="xint" value="1"/>
+        <entry key="140" type="xint" value="1"/>
+        <entry key="141" type="xint" value="1"/>
+        <entry key="142" type="xint" value="0"/>
+        <entry key="143" type="xint" value="1"/>
+        <entry key="144" type="xint" value="1"/>
+        <entry key="145" type="xint" value="1"/>
+        <entry key="146" type="xint" value="1"/>
+        <entry key="147" type="xint" value="1"/>
+        <entry key="148" type="xint" value="1"/>
+        <entry key="149" type="xint" value="1"/>
+    </config>
+    <config key="kMeansCluster0">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.1"/>
+        <entry key="1" type="xdouble" value="3.5"/>
+        <entry key="2" type="xdouble" value="1.4"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster1">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.9"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="1.4"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster2">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.7"/>
+        <entry key="1" type="xdouble" value="3.2"/>
+        <entry key="2" type="xdouble" value="1.3"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster3">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.6"/>
+        <entry key="1" type="xdouble" value="3.1"/>
+        <entry key="2" type="xdouble" value="1.5"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster4">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.0"/>
+        <entry key="1" type="xdouble" value="3.6"/>
+        <entry key="2" type="xdouble" value="1.4"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster5">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.4"/>
+        <entry key="1" type="xdouble" value="3.9"/>
+        <entry key="2" type="xdouble" value="1.7"/>
+        <entry key="3" type="xdouble" value="0.4"/>
+    </config>
+    <config key="kMeansCluster6">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.6"/>
+        <entry key="1" type="xdouble" value="3.4"/>
+        <entry key="2" type="xdouble" value="1.4"/>
+        <entry key="3" type="xdouble" value="0.3"/>
+    </config>
+    <config key="kMeansCluster7">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.0"/>
+        <entry key="1" type="xdouble" value="3.4"/>
+        <entry key="2" type="xdouble" value="1.5"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster8">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.4"/>
+        <entry key="1" type="xdouble" value="2.9"/>
+        <entry key="2" type="xdouble" value="1.4"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster9">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.9"/>
+        <entry key="1" type="xdouble" value="3.1"/>
+        <entry key="2" type="xdouble" value="1.5"/>
+        <entry key="3" type="xdouble" value="0.10000000000000002"/>
+    </config>
+    <config key="kMeansCluster10">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.4"/>
+        <entry key="1" type="xdouble" value="3.7"/>
+        <entry key="2" type="xdouble" value="1.5"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster11">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.8"/>
+        <entry key="1" type="xdouble" value="3.4"/>
+        <entry key="2" type="xdouble" value="1.6"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster12">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.8"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="1.4"/>
+        <entry key="3" type="xdouble" value="0.1"/>
+    </config>
+    <config key="kMeansCluster13">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.3"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="1.1"/>
+        <entry key="3" type="xdouble" value="0.1"/>
+    </config>
+    <config key="kMeansCluster14">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.8"/>
+        <entry key="1" type="xdouble" value="4.0"/>
+        <entry key="2" type="xdouble" value="1.2"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster15">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.7"/>
+        <entry key="1" type="xdouble" value="4.4"/>
+        <entry key="2" type="xdouble" value="1.5"/>
+        <entry key="3" type="xdouble" value="0.4"/>
+    </config>
+    <config key="kMeansCluster16">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.4"/>
+        <entry key="1" type="xdouble" value="3.9"/>
+        <entry key="2" type="xdouble" value="1.3"/>
+        <entry key="3" type="xdouble" value="0.4"/>
+    </config>
+    <config key="kMeansCluster17">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.1"/>
+        <entry key="1" type="xdouble" value="3.5"/>
+        <entry key="2" type="xdouble" value="1.4"/>
+        <entry key="3" type="xdouble" value="0.3"/>
+    </config>
+    <config key="kMeansCluster18">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.7"/>
+        <entry key="1" type="xdouble" value="3.8"/>
+        <entry key="2" type="xdouble" value="1.7"/>
+        <entry key="3" type="xdouble" value="0.3"/>
+    </config>
+    <config key="kMeansCluster19">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.1"/>
+        <entry key="1" type="xdouble" value="3.8"/>
+        <entry key="2" type="xdouble" value="1.5"/>
+        <entry key="3" type="xdouble" value="0.3"/>
+    </config>
+    <config key="kMeansCluster20">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.4"/>
+        <entry key="1" type="xdouble" value="3.4"/>
+        <entry key="2" type="xdouble" value="1.7"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster21">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.1"/>
+        <entry key="1" type="xdouble" value="3.7"/>
+        <entry key="2" type="xdouble" value="1.5"/>
+        <entry key="3" type="xdouble" value="0.4"/>
+    </config>
+    <config key="kMeansCluster22">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.6"/>
+        <entry key="1" type="xdouble" value="3.6"/>
+        <entry key="2" type="xdouble" value="1.0"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster23">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.1"/>
+        <entry key="1" type="xdouble" value="3.3"/>
+        <entry key="2" type="xdouble" value="1.7"/>
+        <entry key="3" type="xdouble" value="0.5"/>
+    </config>
+    <config key="kMeansCluster24">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.8"/>
+        <entry key="1" type="xdouble" value="3.4"/>
+        <entry key="2" type="xdouble" value="1.9"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster25">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.0"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="1.6"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster26">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.0"/>
+        <entry key="1" type="xdouble" value="3.4"/>
+        <entry key="2" type="xdouble" value="1.6"/>
+        <entry key="3" type="xdouble" value="0.4"/>
+    </config>
+    <config key="kMeansCluster27">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.2"/>
+        <entry key="1" type="xdouble" value="3.5"/>
+        <entry key="2" type="xdouble" value="1.5"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster28">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.2"/>
+        <entry key="1" type="xdouble" value="3.4"/>
+        <entry key="2" type="xdouble" value="1.4"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster29">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.7"/>
+        <entry key="1" type="xdouble" value="3.2"/>
+        <entry key="2" type="xdouble" value="1.6"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster30">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.8"/>
+        <entry key="1" type="xdouble" value="3.1"/>
+        <entry key="2" type="xdouble" value="1.6"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster31">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.4"/>
+        <entry key="1" type="xdouble" value="3.4"/>
+        <entry key="2" type="xdouble" value="1.5"/>
+        <entry key="3" type="xdouble" value="0.4"/>
+    </config>
+    <config key="kMeansCluster32">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.2"/>
+        <entry key="1" type="xdouble" value="4.1"/>
+        <entry key="2" type="xdouble" value="1.5"/>
+        <entry key="3" type="xdouble" value="0.1"/>
+    </config>
+    <config key="kMeansCluster33">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.5"/>
+        <entry key="1" type="xdouble" value="4.2"/>
+        <entry key="2" type="xdouble" value="1.4"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster34">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.9"/>
+        <entry key="1" type="xdouble" value="3.1"/>
+        <entry key="2" type="xdouble" value="1.5"/>
+        <entry key="3" type="xdouble" value="0.1"/>
+    </config>
+    <config key="kMeansCluster35">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.0"/>
+        <entry key="1" type="xdouble" value="3.2"/>
+        <entry key="2" type="xdouble" value="1.2"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster36">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.5"/>
+        <entry key="1" type="xdouble" value="3.5"/>
+        <entry key="2" type="xdouble" value="1.3"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster37">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.9"/>
+        <entry key="1" type="xdouble" value="3.1"/>
+        <entry key="2" type="xdouble" value="1.5"/>
+        <entry key="3" type="xdouble" value="0.1"/>
+    </config>
+    <config key="kMeansCluster38">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.4"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="1.3"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster39">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.1"/>
+        <entry key="1" type="xdouble" value="3.4"/>
+        <entry key="2" type="xdouble" value="1.5"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster40">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.0"/>
+        <entry key="1" type="xdouble" value="3.5"/>
+        <entry key="2" type="xdouble" value="1.3"/>
+        <entry key="3" type="xdouble" value="0.3"/>
+    </config>
+    <config key="kMeansCluster41">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.5"/>
+        <entry key="1" type="xdouble" value="2.3"/>
+        <entry key="2" type="xdouble" value="1.3"/>
+        <entry key="3" type="xdouble" value="0.3"/>
+    </config>
+    <config key="kMeansCluster42">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.4"/>
+        <entry key="1" type="xdouble" value="3.2"/>
+        <entry key="2" type="xdouble" value="1.3"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster43">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.0"/>
+        <entry key="1" type="xdouble" value="3.5"/>
+        <entry key="2" type="xdouble" value="1.6"/>
+        <entry key="3" type="xdouble" value="0.6"/>
+    </config>
+    <config key="kMeansCluster44">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.1"/>
+        <entry key="1" type="xdouble" value="3.8"/>
+        <entry key="2" type="xdouble" value="1.9"/>
+        <entry key="3" type="xdouble" value="0.4"/>
+    </config>
+    <config key="kMeansCluster45">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.8"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="1.4"/>
+        <entry key="3" type="xdouble" value="0.3"/>
+    </config>
+    <config key="kMeansCluster46">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.1"/>
+        <entry key="1" type="xdouble" value="3.8"/>
+        <entry key="2" type="xdouble" value="1.6"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster47">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.6"/>
+        <entry key="1" type="xdouble" value="3.2"/>
+        <entry key="2" type="xdouble" value="1.4"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster48">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.3"/>
+        <entry key="1" type="xdouble" value="3.7"/>
+        <entry key="2" type="xdouble" value="1.5"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster49">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.0"/>
+        <entry key="1" type="xdouble" value="3.3"/>
+        <entry key="2" type="xdouble" value="1.4"/>
+        <entry key="3" type="xdouble" value="0.2"/>
+    </config>
+    <config key="kMeansCluster50">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="7.0"/>
+        <entry key="1" type="xdouble" value="3.2"/>
+        <entry key="2" type="xdouble" value="4.7"/>
+        <entry key="3" type="xdouble" value="1.4"/>
+    </config>
+    <config key="kMeansCluster51">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.4"/>
+        <entry key="1" type="xdouble" value="3.2"/>
+        <entry key="2" type="xdouble" value="4.5"/>
+        <entry key="3" type="xdouble" value="1.5"/>
+    </config>
+    <config key="kMeansCluster52">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.9"/>
+        <entry key="1" type="xdouble" value="3.1"/>
+        <entry key="2" type="xdouble" value="4.9"/>
+        <entry key="3" type="xdouble" value="1.5"/>
+    </config>
+    <config key="kMeansCluster53">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.5"/>
+        <entry key="1" type="xdouble" value="2.3"/>
+        <entry key="2" type="xdouble" value="4.0"/>
+        <entry key="3" type="xdouble" value="1.3"/>
+    </config>
+    <config key="kMeansCluster54">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.5"/>
+        <entry key="1" type="xdouble" value="2.8"/>
+        <entry key="2" type="xdouble" value="4.6"/>
+        <entry key="3" type="xdouble" value="1.5"/>
+    </config>
+    <config key="kMeansCluster55">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.7"/>
+        <entry key="1" type="xdouble" value="2.8"/>
+        <entry key="2" type="xdouble" value="4.5"/>
+        <entry key="3" type="xdouble" value="1.3"/>
+    </config>
+    <config key="kMeansCluster56">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.3"/>
+        <entry key="1" type="xdouble" value="3.3"/>
+        <entry key="2" type="xdouble" value="4.7"/>
+        <entry key="3" type="xdouble" value="1.6"/>
+    </config>
+    <config key="kMeansCluster57">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.9"/>
+        <entry key="1" type="xdouble" value="2.4"/>
+        <entry key="2" type="xdouble" value="3.3"/>
+        <entry key="3" type="xdouble" value="1.0"/>
+    </config>
+    <config key="kMeansCluster58">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.6"/>
+        <entry key="1" type="xdouble" value="2.9"/>
+        <entry key="2" type="xdouble" value="4.6"/>
+        <entry key="3" type="xdouble" value="1.3"/>
+    </config>
+    <config key="kMeansCluster59">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.2"/>
+        <entry key="1" type="xdouble" value="2.7"/>
+        <entry key="2" type="xdouble" value="3.9"/>
+        <entry key="3" type="xdouble" value="1.4"/>
+    </config>
+    <config key="kMeansCluster60">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.0"/>
+        <entry key="1" type="xdouble" value="2.0"/>
+        <entry key="2" type="xdouble" value="3.5"/>
+        <entry key="3" type="xdouble" value="1.0"/>
+    </config>
+    <config key="kMeansCluster61">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.9"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="4.2"/>
+        <entry key="3" type="xdouble" value="1.5"/>
+    </config>
+    <config key="kMeansCluster62">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.0"/>
+        <entry key="1" type="xdouble" value="2.2"/>
+        <entry key="2" type="xdouble" value="4.0"/>
+        <entry key="3" type="xdouble" value="1.0"/>
+    </config>
+    <config key="kMeansCluster63">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.1"/>
+        <entry key="1" type="xdouble" value="2.9"/>
+        <entry key="2" type="xdouble" value="4.7"/>
+        <entry key="3" type="xdouble" value="1.4"/>
+    </config>
+    <config key="kMeansCluster64">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.6"/>
+        <entry key="1" type="xdouble" value="2.9"/>
+        <entry key="2" type="xdouble" value="3.6"/>
+        <entry key="3" type="xdouble" value="1.3"/>
+    </config>
+    <config key="kMeansCluster65">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.7"/>
+        <entry key="1" type="xdouble" value="3.1"/>
+        <entry key="2" type="xdouble" value="4.4"/>
+        <entry key="3" type="xdouble" value="1.4"/>
+    </config>
+    <config key="kMeansCluster66">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.6"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="4.5"/>
+        <entry key="3" type="xdouble" value="1.5"/>
+    </config>
+    <config key="kMeansCluster67">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.8"/>
+        <entry key="1" type="xdouble" value="2.7"/>
+        <entry key="2" type="xdouble" value="4.1"/>
+        <entry key="3" type="xdouble" value="1.0"/>
+    </config>
+    <config key="kMeansCluster68">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.2"/>
+        <entry key="1" type="xdouble" value="2.2"/>
+        <entry key="2" type="xdouble" value="4.5"/>
+        <entry key="3" type="xdouble" value="1.5"/>
+    </config>
+    <config key="kMeansCluster69">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.6"/>
+        <entry key="1" type="xdouble" value="2.5"/>
+        <entry key="2" type="xdouble" value="3.9"/>
+        <entry key="3" type="xdouble" value="1.1"/>
+    </config>
+    <config key="kMeansCluster70">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.9"/>
+        <entry key="1" type="xdouble" value="3.2"/>
+        <entry key="2" type="xdouble" value="4.8"/>
+        <entry key="3" type="xdouble" value="1.8"/>
+    </config>
+    <config key="kMeansCluster71">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.1"/>
+        <entry key="1" type="xdouble" value="2.8"/>
+        <entry key="2" type="xdouble" value="4.0"/>
+        <entry key="3" type="xdouble" value="1.3"/>
+    </config>
+    <config key="kMeansCluster72">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.3"/>
+        <entry key="1" type="xdouble" value="2.5"/>
+        <entry key="2" type="xdouble" value="4.9"/>
+        <entry key="3" type="xdouble" value="1.5"/>
+    </config>
+    <config key="kMeansCluster73">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.1"/>
+        <entry key="1" type="xdouble" value="2.8"/>
+        <entry key="2" type="xdouble" value="4.7"/>
+        <entry key="3" type="xdouble" value="1.2"/>
+    </config>
+    <config key="kMeansCluster74">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.4"/>
+        <entry key="1" type="xdouble" value="2.9"/>
+        <entry key="2" type="xdouble" value="4.3"/>
+        <entry key="3" type="xdouble" value="1.3"/>
+    </config>
+    <config key="kMeansCluster75">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.6"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="4.4"/>
+        <entry key="3" type="xdouble" value="1.4"/>
+    </config>
+    <config key="kMeansCluster76">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.8"/>
+        <entry key="1" type="xdouble" value="2.8"/>
+        <entry key="2" type="xdouble" value="4.8"/>
+        <entry key="3" type="xdouble" value="1.4"/>
+    </config>
+    <config key="kMeansCluster77">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.7"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="5.0"/>
+        <entry key="3" type="xdouble" value="1.7"/>
+    </config>
+    <config key="kMeansCluster78">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.0"/>
+        <entry key="1" type="xdouble" value="2.9"/>
+        <entry key="2" type="xdouble" value="4.5"/>
+        <entry key="3" type="xdouble" value="1.5"/>
+    </config>
+    <config key="kMeansCluster79">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.7"/>
+        <entry key="1" type="xdouble" value="2.6"/>
+        <entry key="2" type="xdouble" value="3.5"/>
+        <entry key="3" type="xdouble" value="1.0"/>
+    </config>
+    <config key="kMeansCluster80">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.5"/>
+        <entry key="1" type="xdouble" value="2.4"/>
+        <entry key="2" type="xdouble" value="3.8"/>
+        <entry key="3" type="xdouble" value="1.1"/>
+    </config>
+    <config key="kMeansCluster81">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.5"/>
+        <entry key="1" type="xdouble" value="2.4"/>
+        <entry key="2" type="xdouble" value="3.7"/>
+        <entry key="3" type="xdouble" value="1.0"/>
+    </config>
+    <config key="kMeansCluster82">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.8"/>
+        <entry key="1" type="xdouble" value="2.7"/>
+        <entry key="2" type="xdouble" value="3.9"/>
+        <entry key="3" type="xdouble" value="1.2"/>
+    </config>
+    <config key="kMeansCluster83">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.0"/>
+        <entry key="1" type="xdouble" value="2.7"/>
+        <entry key="2" type="xdouble" value="5.1"/>
+        <entry key="3" type="xdouble" value="1.6"/>
+    </config>
+    <config key="kMeansCluster84">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.4"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="4.5"/>
+        <entry key="3" type="xdouble" value="1.5"/>
+    </config>
+    <config key="kMeansCluster85">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.0"/>
+        <entry key="1" type="xdouble" value="3.4"/>
+        <entry key="2" type="xdouble" value="4.5"/>
+        <entry key="3" type="xdouble" value="1.6"/>
+    </config>
+    <config key="kMeansCluster86">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.7"/>
+        <entry key="1" type="xdouble" value="3.1"/>
+        <entry key="2" type="xdouble" value="4.7"/>
+        <entry key="3" type="xdouble" value="1.5"/>
+    </config>
+    <config key="kMeansCluster87">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.3"/>
+        <entry key="1" type="xdouble" value="2.3"/>
+        <entry key="2" type="xdouble" value="4.4"/>
+        <entry key="3" type="xdouble" value="1.3"/>
+    </config>
+    <config key="kMeansCluster88">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.6"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="4.1"/>
+        <entry key="3" type="xdouble" value="1.3"/>
+    </config>
+    <config key="kMeansCluster89">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.5"/>
+        <entry key="1" type="xdouble" value="2.5"/>
+        <entry key="2" type="xdouble" value="4.0"/>
+        <entry key="3" type="xdouble" value="1.3"/>
+    </config>
+    <config key="kMeansCluster90">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.5"/>
+        <entry key="1" type="xdouble" value="2.6"/>
+        <entry key="2" type="xdouble" value="4.4"/>
+        <entry key="3" type="xdouble" value="1.2"/>
+    </config>
+    <config key="kMeansCluster91">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.1"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="4.6"/>
+        <entry key="3" type="xdouble" value="1.4"/>
+    </config>
+    <config key="kMeansCluster92">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.8"/>
+        <entry key="1" type="xdouble" value="2.6"/>
+        <entry key="2" type="xdouble" value="4.0"/>
+        <entry key="3" type="xdouble" value="1.2"/>
+    </config>
+    <config key="kMeansCluster93">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.0"/>
+        <entry key="1" type="xdouble" value="2.3"/>
+        <entry key="2" type="xdouble" value="3.3"/>
+        <entry key="3" type="xdouble" value="1.0"/>
+    </config>
+    <config key="kMeansCluster94">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.6"/>
+        <entry key="1" type="xdouble" value="2.7"/>
+        <entry key="2" type="xdouble" value="4.2"/>
+        <entry key="3" type="xdouble" value="1.3"/>
+    </config>
+    <config key="kMeansCluster95">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.7"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="4.2"/>
+        <entry key="3" type="xdouble" value="1.2"/>
+    </config>
+    <config key="kMeansCluster96">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.7"/>
+        <entry key="1" type="xdouble" value="2.9"/>
+        <entry key="2" type="xdouble" value="4.2"/>
+        <entry key="3" type="xdouble" value="1.3"/>
+    </config>
+    <config key="kMeansCluster97">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.2"/>
+        <entry key="1" type="xdouble" value="2.9"/>
+        <entry key="2" type="xdouble" value="4.3"/>
+        <entry key="3" type="xdouble" value="1.3"/>
+    </config>
+    <config key="kMeansCluster98">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.1"/>
+        <entry key="1" type="xdouble" value="2.5"/>
+        <entry key="2" type="xdouble" value="3.0"/>
+        <entry key="3" type="xdouble" value="1.1"/>
+    </config>
+    <config key="kMeansCluster99">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.7"/>
+        <entry key="1" type="xdouble" value="2.8"/>
+        <entry key="2" type="xdouble" value="4.1"/>
+        <entry key="3" type="xdouble" value="1.3"/>
+    </config>
+    <config key="kMeansCluster100">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.3"/>
+        <entry key="1" type="xdouble" value="3.3"/>
+        <entry key="2" type="xdouble" value="6.0"/>
+        <entry key="3" type="xdouble" value="2.5"/>
+    </config>
+    <config key="kMeansCluster101">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.8"/>
+        <entry key="1" type="xdouble" value="2.7"/>
+        <entry key="2" type="xdouble" value="5.1"/>
+        <entry key="3" type="xdouble" value="1.9"/>
+    </config>
+    <config key="kMeansCluster102">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="7.1"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="5.9"/>
+        <entry key="3" type="xdouble" value="2.1"/>
+    </config>
+    <config key="kMeansCluster103">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.3"/>
+        <entry key="1" type="xdouble" value="2.9"/>
+        <entry key="2" type="xdouble" value="5.6"/>
+        <entry key="3" type="xdouble" value="1.8"/>
+    </config>
+    <config key="kMeansCluster104">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.5"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="5.8"/>
+        <entry key="3" type="xdouble" value="2.2"/>
+    </config>
+    <config key="kMeansCluster105">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="7.6"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="6.6"/>
+        <entry key="3" type="xdouble" value="2.1"/>
+    </config>
+    <config key="kMeansCluster106">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.9"/>
+        <entry key="1" type="xdouble" value="2.5"/>
+        <entry key="2" type="xdouble" value="4.5"/>
+        <entry key="3" type="xdouble" value="1.7"/>
+    </config>
+    <config key="kMeansCluster107">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="7.3"/>
+        <entry key="1" type="xdouble" value="2.9"/>
+        <entry key="2" type="xdouble" value="6.3"/>
+        <entry key="3" type="xdouble" value="1.8"/>
+    </config>
+    <config key="kMeansCluster108">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.7"/>
+        <entry key="1" type="xdouble" value="2.5"/>
+        <entry key="2" type="xdouble" value="5.8"/>
+        <entry key="3" type="xdouble" value="1.8"/>
+    </config>
+    <config key="kMeansCluster109">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="7.2"/>
+        <entry key="1" type="xdouble" value="3.6"/>
+        <entry key="2" type="xdouble" value="6.1"/>
+        <entry key="3" type="xdouble" value="2.5"/>
+    </config>
+    <config key="kMeansCluster110">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.5"/>
+        <entry key="1" type="xdouble" value="3.2"/>
+        <entry key="2" type="xdouble" value="5.1"/>
+        <entry key="3" type="xdouble" value="2.0"/>
+    </config>
+    <config key="kMeansCluster111">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.4"/>
+        <entry key="1" type="xdouble" value="2.7"/>
+        <entry key="2" type="xdouble" value="5.3"/>
+        <entry key="3" type="xdouble" value="1.9"/>
+    </config>
+    <config key="kMeansCluster112">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.8"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="5.5"/>
+        <entry key="3" type="xdouble" value="2.1"/>
+    </config>
+    <config key="kMeansCluster113">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.7"/>
+        <entry key="1" type="xdouble" value="2.5"/>
+        <entry key="2" type="xdouble" value="5.0"/>
+        <entry key="3" type="xdouble" value="2.0"/>
+    </config>
+    <config key="kMeansCluster114">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.8"/>
+        <entry key="1" type="xdouble" value="2.8"/>
+        <entry key="2" type="xdouble" value="5.1"/>
+        <entry key="3" type="xdouble" value="2.4"/>
+    </config>
+    <config key="kMeansCluster115">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.4"/>
+        <entry key="1" type="xdouble" value="3.2"/>
+        <entry key="2" type="xdouble" value="5.3"/>
+        <entry key="3" type="xdouble" value="2.3"/>
+    </config>
+    <config key="kMeansCluster116">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.5"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="5.5"/>
+        <entry key="3" type="xdouble" value="1.8"/>
+    </config>
+    <config key="kMeansCluster117">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="7.7"/>
+        <entry key="1" type="xdouble" value="3.8"/>
+        <entry key="2" type="xdouble" value="6.7"/>
+        <entry key="3" type="xdouble" value="2.2"/>
+    </config>
+    <config key="kMeansCluster118">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="7.7"/>
+        <entry key="1" type="xdouble" value="2.6"/>
+        <entry key="2" type="xdouble" value="6.9"/>
+        <entry key="3" type="xdouble" value="2.3"/>
+    </config>
+    <config key="kMeansCluster119">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.0"/>
+        <entry key="1" type="xdouble" value="2.2"/>
+        <entry key="2" type="xdouble" value="5.0"/>
+        <entry key="3" type="xdouble" value="1.5"/>
+    </config>
+    <config key="kMeansCluster120">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.9"/>
+        <entry key="1" type="xdouble" value="3.2"/>
+        <entry key="2" type="xdouble" value="5.7"/>
+        <entry key="3" type="xdouble" value="2.3"/>
+    </config>
+    <config key="kMeansCluster121">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.6"/>
+        <entry key="1" type="xdouble" value="2.8"/>
+        <entry key="2" type="xdouble" value="4.9"/>
+        <entry key="3" type="xdouble" value="2.0"/>
+    </config>
+    <config key="kMeansCluster122">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="7.7"/>
+        <entry key="1" type="xdouble" value="2.8"/>
+        <entry key="2" type="xdouble" value="6.7"/>
+        <entry key="3" type="xdouble" value="2.0"/>
+    </config>
+    <config key="kMeansCluster123">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.3"/>
+        <entry key="1" type="xdouble" value="2.7"/>
+        <entry key="2" type="xdouble" value="4.9"/>
+        <entry key="3" type="xdouble" value="1.8"/>
+    </config>
+    <config key="kMeansCluster124">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.7"/>
+        <entry key="1" type="xdouble" value="3.3"/>
+        <entry key="2" type="xdouble" value="5.7"/>
+        <entry key="3" type="xdouble" value="2.1"/>
+    </config>
+    <config key="kMeansCluster125">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="7.2"/>
+        <entry key="1" type="xdouble" value="3.2"/>
+        <entry key="2" type="xdouble" value="6.0"/>
+        <entry key="3" type="xdouble" value="1.8"/>
+    </config>
+    <config key="kMeansCluster126">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.2"/>
+        <entry key="1" type="xdouble" value="2.8"/>
+        <entry key="2" type="xdouble" value="4.8"/>
+        <entry key="3" type="xdouble" value="1.8"/>
+    </config>
+    <config key="kMeansCluster127">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.1"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="4.9"/>
+        <entry key="3" type="xdouble" value="1.8"/>
+    </config>
+    <config key="kMeansCluster128">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.4"/>
+        <entry key="1" type="xdouble" value="2.8"/>
+        <entry key="2" type="xdouble" value="5.6"/>
+        <entry key="3" type="xdouble" value="2.1"/>
+    </config>
+    <config key="kMeansCluster129">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="7.2"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="5.8"/>
+        <entry key="3" type="xdouble" value="1.6"/>
+    </config>
+    <config key="kMeansCluster130">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="7.4"/>
+        <entry key="1" type="xdouble" value="2.8"/>
+        <entry key="2" type="xdouble" value="6.1"/>
+        <entry key="3" type="xdouble" value="1.9"/>
+    </config>
+    <config key="kMeansCluster131">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="7.9"/>
+        <entry key="1" type="xdouble" value="3.8"/>
+        <entry key="2" type="xdouble" value="6.4"/>
+        <entry key="3" type="xdouble" value="2.0"/>
+    </config>
+    <config key="kMeansCluster132">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.4"/>
+        <entry key="1" type="xdouble" value="2.8"/>
+        <entry key="2" type="xdouble" value="5.6"/>
+        <entry key="3" type="xdouble" value="2.2"/>
+    </config>
+    <config key="kMeansCluster133">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.3"/>
+        <entry key="1" type="xdouble" value="2.8"/>
+        <entry key="2" type="xdouble" value="5.1"/>
+        <entry key="3" type="xdouble" value="1.5"/>
+    </config>
+    <config key="kMeansCluster134">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.1"/>
+        <entry key="1" type="xdouble" value="2.6"/>
+        <entry key="2" type="xdouble" value="5.6"/>
+        <entry key="3" type="xdouble" value="1.4"/>
+    </config>
+    <config key="kMeansCluster135">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="7.7"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="6.1"/>
+        <entry key="3" type="xdouble" value="2.3"/>
+    </config>
+    <config key="kMeansCluster136">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.3"/>
+        <entry key="1" type="xdouble" value="3.4"/>
+        <entry key="2" type="xdouble" value="5.6"/>
+        <entry key="3" type="xdouble" value="2.4"/>
+    </config>
+    <config key="kMeansCluster137">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.4"/>
+        <entry key="1" type="xdouble" value="3.1"/>
+        <entry key="2" type="xdouble" value="5.5"/>
+        <entry key="3" type="xdouble" value="1.8"/>
+    </config>
+    <config key="kMeansCluster138">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.0"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="4.8"/>
+        <entry key="3" type="xdouble" value="1.8"/>
+    </config>
+    <config key="kMeansCluster139">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.9"/>
+        <entry key="1" type="xdouble" value="3.1"/>
+        <entry key="2" type="xdouble" value="5.4"/>
+        <entry key="3" type="xdouble" value="2.1"/>
+    </config>
+    <config key="kMeansCluster140">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.7"/>
+        <entry key="1" type="xdouble" value="3.1"/>
+        <entry key="2" type="xdouble" value="5.6"/>
+        <entry key="3" type="xdouble" value="2.4"/>
+    </config>
+    <config key="kMeansCluster141">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.9"/>
+        <entry key="1" type="xdouble" value="3.1"/>
+        <entry key="2" type="xdouble" value="5.1"/>
+        <entry key="3" type="xdouble" value="2.3"/>
+    </config>
+    <config key="kMeansCluster142">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.8"/>
+        <entry key="1" type="xdouble" value="2.7"/>
+        <entry key="2" type="xdouble" value="5.1"/>
+        <entry key="3" type="xdouble" value="1.9"/>
+    </config>
+    <config key="kMeansCluster143">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.8"/>
+        <entry key="1" type="xdouble" value="3.2"/>
+        <entry key="2" type="xdouble" value="5.9"/>
+        <entry key="3" type="xdouble" value="2.3"/>
+    </config>
+    <config key="kMeansCluster144">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.7"/>
+        <entry key="1" type="xdouble" value="3.3"/>
+        <entry key="2" type="xdouble" value="5.7"/>
+        <entry key="3" type="xdouble" value="2.5"/>
+    </config>
+    <config key="kMeansCluster145">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.7"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="5.2"/>
+        <entry key="3" type="xdouble" value="2.3"/>
+    </config>
+    <config key="kMeansCluster146">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.3"/>
+        <entry key="1" type="xdouble" value="2.5"/>
+        <entry key="2" type="xdouble" value="5.0"/>
+        <entry key="3" type="xdouble" value="1.9"/>
+    </config>
+    <config key="kMeansCluster147">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.5"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="5.2"/>
+        <entry key="3" type="xdouble" value="2.0"/>
+    </config>
+    <config key="kMeansCluster148">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.2"/>
+        <entry key="1" type="xdouble" value="3.4"/>
+        <entry key="2" type="xdouble" value="5.4"/>
+        <entry key="3" type="xdouble" value="2.3"/>
+    </config>
+    <config key="kMeansCluster149">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.9"/>
+        <entry key="1" type="xdouble" value="3.0"/>
+        <entry key="2" type="xdouble" value="5.1"/>
+        <entry key="3" type="xdouble" value="1.8"/>
+    </config>
+    <config key="FeatureNames">
+        <entry key="array-size" type="xint" value="5"/>
+        <entry key="0" type="xstring" value="sepal length"/>
+        <entry key="1" type="xstring" value="sepal width"/>
+        <entry key="2" type="xstring" value="petal length"/>
+        <entry key="3" type="xstring" value="petal width"/>
+        <entry key="4" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

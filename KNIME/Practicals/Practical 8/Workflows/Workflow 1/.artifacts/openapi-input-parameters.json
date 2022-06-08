@@ -1,0 +1,24 @@
+
+{
+    "type": "object",
+    "properties": {
+        "string-input-9": {
+            "type": "string",
+            "default": "Cluster_1",
+            "description": "Enter Description",
+            "example": "Cluster_1"
+        },
+        "string-input-11": {
+            "type": "string",
+            "default": "Cluster_2",
+            "description": "Enter Description",
+            "example": "Cluster_2"
+        },
+        "string-input-5": {
+            "type": "string",
+            "default": "Cluster_0",
+            "description": "Enter Description",
+            "example": "Cluster_0"
+        }
+    }
+}
