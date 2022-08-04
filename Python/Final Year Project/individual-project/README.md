@@ -1,6 +1,6 @@
 # Individual Project
 
-This is my individual project for vision-based emotion detection.
+This is my individual project for vision-based emotion detection of gameplayers over three time periods.
 
 ## Patch Notes
 
