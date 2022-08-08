@@ -1,0 +1,16 @@
+all: libmylib.so test1 use
+
+lib.o: lib.h lib-internal.h
+	gcc -I. lib.c -c -fpic
+
+libmylib.so: lib.o
+	gcc -shared -o libmylib.so lib.o
+
+test1: libmylib.so test1.c
+	gcc -I. -L. test1.c -o test1 -lmylib -Wl,--rpath=$(CURDIR)
+
+use: libmylib.so use.c
+	gcc -I. -L. use.c -o use -lmylib -Wl,--rpath=$(CURDIR)
+
+clean:
+	rm *.o *.so test1 use
