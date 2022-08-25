@@ -1,0 +1,14 @@
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Decisions\bin\Debug\netcoreapp3.1\Decisions.exe
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Decisions\bin\Debug\netcoreapp3.1\Decisions.deps.json
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Decisions\bin\Debug\netcoreapp3.1\Decisions.runtimeconfig.json
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Decisions\bin\Debug\netcoreapp3.1\Decisions.runtimeconfig.dev.json
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Decisions\bin\Debug\netcoreapp3.1\Decisions.dll
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Decisions\bin\Debug\netcoreapp3.1\Decisions.pdb
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Decisions\obj\Debug\netcoreapp3.1\Decisions.csproj.AssemblyReference.cache
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Decisions\obj\Debug\netcoreapp3.1\Decisions.GeneratedMSBuildEditorConfig.editorconfig
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Decisions\obj\Debug\netcoreapp3.1\Decisions.AssemblyInfoInputs.cache
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Decisions\obj\Debug\netcoreapp3.1\Decisions.AssemblyInfo.cs
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Decisions\obj\Debug\netcoreapp3.1\Decisions.csproj.CoreCompileInputs.cache
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Decisions\obj\Debug\netcoreapp3.1\Decisions.dll
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Decisions\obj\Debug\netcoreapp3.1\Decisions.pdb
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Decisions\obj\Debug\netcoreapp3.1\Decisions.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Variables\bin\Debug\netcoreapp3.1\Variables.exe
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Variables\bin\Debug\netcoreapp3.1\Variables.deps.json
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Variables\bin\Debug\netcoreapp3.1\Variables.runtimeconfig.json
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Variables\bin\Debug\netcoreapp3.1\Variables.runtimeconfig.dev.json
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Variables\bin\Debug\netcoreapp3.1\Variables.dll
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Variables\bin\Debug\netcoreapp3.1\Variables.pdb
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Variables\obj\Debug\netcoreapp3.1\Variables.csproj.AssemblyReference.cache
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Variables\obj\Debug\netcoreapp3.1\Variables.GeneratedMSBuildEditorConfig.editorconfig
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Variables\obj\Debug\netcoreapp3.1\Variables.AssemblyInfoInputs.cache
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Variables\obj\Debug\netcoreapp3.1\Variables.AssemblyInfo.cs
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Variables\obj\Debug\netcoreapp3.1\Variables.csproj.CoreCompileInputs.cache
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Variables\obj\Debug\netcoreapp3.1\Variables.dll
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Variables\obj\Debug\netcoreapp3.1\Variables.pdb
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\Variables\obj\Debug\netcoreapp3.1\Variables.genruntimeconfig.cache

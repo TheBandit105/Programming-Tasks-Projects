@@ -1,0 +1,16 @@
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\HelloWorld\HelloWorld\bin\Debug\net5.0\HelloWorld.exe
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\HelloWorld\HelloWorld\bin\Debug\net5.0\HelloWorld.deps.json
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\HelloWorld\HelloWorld\bin\Debug\net5.0\HelloWorld.runtimeconfig.json
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\HelloWorld\HelloWorld\bin\Debug\net5.0\HelloWorld.runtimeconfig.dev.json
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\HelloWorld\HelloWorld\bin\Debug\net5.0\HelloWorld.dll
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\HelloWorld\HelloWorld\bin\Debug\net5.0\ref\HelloWorld.dll
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\HelloWorld\HelloWorld\bin\Debug\net5.0\HelloWorld.pdb
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\HelloWorld\HelloWorld\obj\Debug\net5.0\HelloWorld.csproj.AssemblyReference.cache
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\HelloWorld\HelloWorld\obj\Debug\net5.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\HelloWorld\HelloWorld\obj\Debug\net5.0\HelloWorld.AssemblyInfoInputs.cache
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\HelloWorld\HelloWorld\obj\Debug\net5.0\HelloWorld.AssemblyInfo.cs
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\HelloWorld\HelloWorld\obj\Debug\net5.0\HelloWorld.csproj.CoreCompileInputs.cache
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\HelloWorld\HelloWorld\obj\Debug\net5.0\HelloWorld.dll
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\HelloWorld\HelloWorld\obj\Debug\net5.0\ref\HelloWorld.dll
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\HelloWorld\HelloWorld\obj\Debug\net5.0\HelloWorld.pdb
+D:\GITHUBREPOv2\Programming-Tasks-Projects\C#\Tasks\HelloWorld\HelloWorld\obj\Debug\net5.0\HelloWorld.genruntimeconfig.cache
