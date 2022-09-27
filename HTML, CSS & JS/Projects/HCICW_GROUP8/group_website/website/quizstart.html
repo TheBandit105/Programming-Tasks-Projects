@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVIDAILY QUIZ</title>
+
+    <!-- include style.css -->
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="welcome_text">
+            <form class="welcome_form" name="welcome_form" onsubmit="submitForm(event)">
+                <div class = "title_text">
+                    <h1 style="height: 100px;">Welcome to the COVIDAILY quiz</h1>
+                </div>
+                <div class = "info_text">
+                    <h3 style="height: 150px;"> To start the quiz, please make sure you enter your name in the field below.</h3> 
+                </div>
+                <input type="text" name="name">
+                <button type="submit">Begin Quiz</button>
+                <div class="info_text2">
+                    <h3 style="height: 150px;">Note that this quiz is timed. Have a competition to see who completes the quiz the fastest.</h3>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--covidquiz.js-->
+    <script src ="dist/js/covidquiz.js"></script>
+</body>
+</html>
