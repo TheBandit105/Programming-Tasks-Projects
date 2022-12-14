@@ -1,10 +1,16 @@
 import time
 print('Welcome to the Pythonator Quiz!')
 
-play = input('Do you want to play? ')
+while True:
+    play = input('Do you want to play? ')
 
-if play.lower() != 'yes':
-    quit()
+    if play.lower() == 'yes':
+        break
+    elif play.lower() == 'no':
+        quit()
+    else:
+        print('Invalid input. Please try again!')
+    
 
 name = input('\nWhat is your name? ')
 
@@ -61,7 +67,7 @@ time.sleep(2.4)
 print('\nScore: ', score)
 ans = input('(5) How many human players are there on each side in a polo match?\n')
 
-if ans == 'four' or 'Four' or 'FOUR' or '4':
+if ans.lower() == 'four' or '4':
     print('\nCorrect!')
     score += 1
 else:
@@ -83,7 +89,7 @@ time.sleep(2.4)
 print('\nScore: ', score)
 ans = input('(7) How many times has England won the men’s football World Cup?\n')
 
-if ans == 'Once' or 'once' or 'ONCE' or 'Once (1966)' or 'once (1996)':
+if ans.lower() == 'once' or ans == 'Once (1966)' or 'once (1996)':
     print('\nCorrect!')
     score += 1
 else:
@@ -116,7 +122,7 @@ time.sleep(2.4)
 print('\nScore: ', score)
 ans = input('(10) From what grain is the Japanese spirit Sake made?\n')
 
-if ans == 'Rice' or 'rice' or 'RICE':
+if ans.lower() == 'rice':
     print('\nCorrect!')
     score += 1
 else:
@@ -127,7 +133,7 @@ time.sleep(2.4)
 print('\nScore: ', score)
 ans = input('(11) In which part of your body would you find the cruciate ligament?\n')
 
-if ans == 'Knee' or 'knee' or 'KNEE':
+if ans.lower() == 'knee':
     print('\nCorrect!')
     score += 1
 else:
@@ -171,7 +177,7 @@ time.sleep(2.4)
 print('\nScore: ', score)
 ans = input('(15) How many of Henry VIII’s wives were called Catherine?\n')
 
-if ans == 'Three' or 'three' or 'THREE' or '3':
+if ans.lower() == 'three' or '3':
     print('\nCorrect!')
     score += 1
 else:
@@ -270,7 +276,7 @@ time.sleep(2.4)
 print('\nScore: ', score)
 ans = input('(24) How many films have Al Pacino and Robert De Niro appeared in together?\n')
 
-if ans == 'Four' or 'four' or 'FOUR' or '4':
+if ans.lower() == 'four' or '4':
     print('\nCorrect!')
     score += 1
 else:
@@ -349,7 +355,7 @@ print('\nTHANK YOU FOR PLAYING, THAT IS THE END OF THE QUIZ!')
 if score >= 15:
     print('\nWell done', name, '! Your final score is', score, '/30')
 else:
-    print('\nUnlucky', name, ' better luck next time! Final score: ', score, '/30')
+    print('\nUnlucky', name, 'better luck next time! Final score: ', score, '/30')
 
 
 

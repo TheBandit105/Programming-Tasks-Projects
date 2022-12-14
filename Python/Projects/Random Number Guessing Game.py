@@ -17,7 +17,13 @@ guesses = 0
 
 while True:
     guesses += 1
-    in_guess = input('Guess the numer: ')
+    in_guess = input('Guess the number: ')
+
+    if int(in_guess) > max_num:
+            print('Invalid guess, due to input given being bigger than the max number set.\
+ Input a guess between 0 and the max number that was set and try again.')
+            guesses -=1
+
     if in_guess.isdigit():
         in_guess = int(in_guess)
     else:
@@ -28,8 +34,8 @@ while True:
         print("\nWell done! You've guessed my number!")
         break
     elif in_guess > randnum:
-        print("\nYour guess was above the chosen number!")
+        print("Your guess was above the chosen number!\n")
     else:
-        print("\nYour guess was below the chosen number!")
+        print("Your guess was below the chosen number!\n")
 
 print('\nYou achieved the guess in', guesses, 'guesses.')

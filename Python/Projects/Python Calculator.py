@@ -7,30 +7,30 @@ print('\nHello, welcome to the Python Calculator V1! \n')
 while True:
     print('Please select an operation below: \n')
 
-    print('Addition \t-> \ta  \t\tGamma Function \t -> \tgamma \t\tComplementary Error Function \t -> \terfc')
-    print('Subtraction \t-> \ts \t\tFind Hypotenuse  ->\thypot \t\tIs Square Root \t\t\t ->\tisqrt')
-    print('Multiplication \t-> \tm  \t\tIs Close \t -> \tisclose \tPerm \t\t\t\t ->\tperm')
-    print('Division \t-> \td    \t\tIs Finite \t -> \tisf \t\tHarmonic Mean \t\t\t ->\thmean')
-    print('Floor Division \t-> \tf  \t\tIs Infinite \t -> \tisinf \t\tMean \t\t\t\t ->\tmean')
-    print('Ceiling Division -> \tc  \t\tIs Not a Number  -> \tisNaN \t\tMedian \t\t\t\t ->\tmedian')
-    print('Modulus (Remainder) -> \tmod \t\tInverse Mantissa & Exponent -> \tldexp\tHigh Median \t\t\t ->\thmedian')
-    print('Greatest Common Divisor -> gcd \t\tLog Gamma \t -> \tlgamma\t\tLow Median \t\t\t ->\tlmedian')
-    print('Arc Cosine \t-> \tacos \t\tLog \t\t -> \tlog\t\tMode \t\t\t\t ->\tmode')
-    print('Inverse Hyperbolic Cosine -> acosh \tBase-10 Log \t -> \tlog10\t\tStandard Deviation (Population)\t ->\tpstdev')
-    print('Arc Sine \t-> \tasin \t\tLog(1 + x) \t -> \tlog1p\t\tStandard Deviation (Data Sample) ->\tstdev')
-    print('Inverse Hyperbolic Sine -> asinh \tBase-2 Log \t -> \tlog2\t\tVariance (Population) \t\t ->\tpvar')
-    print('Arc Tangent \t-> \tatan \t\tPower \t\t -> \tpow\t\tVariance (Data Sample) \t\t ->\tvar')
-    print('Arc Tangent of a/b -> \tatan2 \t\tDegrees to Radians -> \trad\t\tComplex Addition \t\t ->\tca')
-    print('Inverse Hyperbolic Tangent -> atanh \tSine \t\t -> \tsin\t\tComplex Subtraction \t\t ->\tcs') 
-    print('Possibility Finder -> \tcomb \t\tHyperbolic Sine  -> \tsinh\t\tComplex Multiplication \t\t ->\tcm')
-    print('Cosine \t\t-> \tcos \t\tSquare Root \t -> \tsqrt\t\tComplex Division \t\t ->\tcd')
-    print('Hyperbolic Cosine -> \tcosh \t\tTangent \t -> \ttan\t\tComplex Arc Cosine \t\t ->\tcacos')
-    print('Radians to Degrees -> \tdeg \t\tHyperbolic Tangent -> \ttanh\t\tComplex Hyperbolic Arc Cosine \t ->\tcacosh')
+    print('Addition \t-> \ta  \t\tGamma Function \t -> \tgamma \t\tComplementary Error Function \t -> \terfc \t\tComplex Hyperbolic Cosine \t ->\tccosh')
+    print('Subtraction \t-> \ts \t\tFind Hypotenuse  ->\thypot \t\tIs Square Root \t\t\t ->\tisqrt \t\tE^(complex) \t\t ->\tcexp')
+    print('Multiplication \t-> \tm  \t\tIs Close \t -> \tisclose \tPerm \t\t\t\t ->\tperm \t\tComplex Is Close \t ->\tcisclose')
+    print('Division \t-> \td    \t\tIs Finite \t -> \tisf \t\tHarmonic Mean \t\t\t ->\thmean \t\tComplex Is Finite \t ->\tcisf')
+    print('Floor Division \t-> \tf  \t\tIs Infinite \t -> \tisinf \t\tMean \t\t\t\t ->\tmean \t\tComplex Is Infinite \t ->\tcisinf')
+    print('Ceiling Division -> \tc  \t\tIs Not a Number  -> \tisNaN \t\tMedian \t\t\t\t ->\tmedian \t\tComplex Is Not a Number  ->\tcisNaN')
+    print('Modulus (Remainder) -> \tmod \t\tInverse Mantissa & Exponent -> \tldexp\tHigh Median \t\t\t ->\thmedian \tComplex Log \t\t ->\tclog')
+    print('Greatest Common Divisor -> gcd \t\tLog Gamma \t -> \tlgamma\t\tLow Median \t\t\t ->\tlmedian \tComplex Base-10 Log \t ->\tclog10')
+    print('Arc Cosine \t-> \tacos \t\tLog \t\t -> \tlog\t\tMode \t\t\t\t ->\tmode \t\tComplex Log \t\t ->\tclog')
+    print('Inverse Hyperbolic Cosine -> acosh \tBase-10 Log \t -> \tlog10\t\tStandard Deviation (Population)\t ->\tpstdev \t\tPhase \t\t\t ->\tphase')
+    print('Arc Sine \t-> \tasin \t\tLog(1 + x) \t -> \tlog1p\t\tStandard Deviation (Data Sample) ->\tstdev \t\tPolar \t\t\t ->\tpolar')
+    print('Inverse Hyperbolic Sine -> asinh \tBase-2 Log \t -> \tlog2\t\tVariance (Population) \t\t ->\tpvar \t\tPolarRect \t\t ->\trect')
+    print('Arc Tangent \t-> \tatan \t\tPower \t\t -> \tpow\t\tVariance (Data Sample) \t\t ->\tvar \t\tComplex Sine \t\t ->\tcsin')
+    print('Arc Tangent of a/b -> \tatan2 \t\tDegrees to Radians -> \trad\t\tComplex Addition \t\t ->\tca \t\tComplex Hyperbolic Sine  ->\tcsinh')
+    print('Inverse Hyperbolic Tangent -> atanh \tSine \t\t -> \tsin\t\tComplex Subtraction \t\t ->\tcs \t\tComplex Square root \t ->\tcsqrt') 
+    print('Possibility Finder -> \tcomb \t\tHyperbolic Sine  -> \tsinh\t\tComplex Multiplication \t\t ->\tcm \t\tComplex Tangent \t ->\tctan')
+    print('Cosine \t\t-> \tcos \t\tSquare Root \t -> \tsqrt\t\tComplex Division \t\t ->\tcd \t\tComplex Hyperbolic Tangent ->\tctanh')
+    print('Hyperbolic Cosine -> \tcosh \t\tTangent \t -> \ttan\t\tComplex Arc Cosine \t\t ->\tcacos \t\tSummation \t\t ->\tfsum')
+    print('Radians to Degrees -> \tdeg \t\tHyperbolic Tangent -> \ttanh\t\tComplex Hyperbolic Arc Cosine \t ->\tcacosh \t\tProduct \t\t ->\tprod')
     print('E^x \t\t-> \texp \t\tTruncate \t -> \ttrunc\t\tComplex Arc Sine \t\t ->\tcasin')
     print('(E^x) - 1 \t-> \texpm1 \t\tRemainder \t -> \tremder\t\tComplex Hyperbolic Arc Sine \t ->\tcasinh')
     print('Absolute Value of Number -> fabs \tDistance \t -> \tdist\t\tComplex Arc Tangent \t\t ->\tcatan')
     print('Factorial \t-> \tfctrl \t\tCopysign \t -> \tcpysgn\t\tComplex Hyperbolic Arc Tangent \t ->\tcatanh')
-    print('Mantissa & Exponent -> \tfrexp \t\tError Function \t -> \terf \t\tQuit \t\t -> \tquit or q')
+    print('Mantissa & Exponent -> \tfrexp \t\tError Function \t -> \terf \t\tComplex Cosine \t\t\t ->\tccos  \t\tQuit \t\t -> \tquit or q')
 
     selection = input('\nInput: ')
 
@@ -435,7 +435,7 @@ while True:
         b = complex(b1, b2)
         print('\n', a + b)
         print('\n')
-
+            
     elif selection == 'cs':
         print('\nPlease input two complex numbers to subtract: \n')
         a1, a2, b1, b2 = [float(x) for x in input("Enter four values: ").split()]
@@ -634,9 +634,13 @@ while True:
         print('\n',math.prod(a))
         print('\n')
 
-    elif selection == ' ':
-        print('\nInvalid choice, please try again: \n')
+    elif selection == '' or selection == ' ' or selection == '  ' \
+         or selection == '   ' or selection == '    ' or selection == '     ':
+        print('\nNo input given, please try again: \n')
+        continue
 
     elif selection == 'quit' or 'q':
-        exit()
+        break
+
+    
 
