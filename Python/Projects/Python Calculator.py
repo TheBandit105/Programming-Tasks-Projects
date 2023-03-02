@@ -1,3 +1,9 @@
+# For this calculator, as well as importing the regular math library,
+# I have also imported the cmath and statistics libraries. The cmath library,
+# enables for complex numbers to be used in the same way as regular numbers to carry
+# the same operations listed in the menu below. The statistics library is used to calculate
+# statistical related operaions.
+
 import math
 import cmath
 import statistics
@@ -5,6 +11,14 @@ import statistics
 print('\nHello, welcome to the Python Calculator V1! \n')
 
 while True:
+
+    # The while loop contains the main program. Just below is the
+    # main menu of program, which displays the options given for this
+    # version of the Python Calculator. Functions range from regular mathematical
+    # operations, such as addition and subtraction, to statistical operations, such
+    # as finding the standard deviation. The calculator also has the functionality
+    # to manage mathematical operations which use complex numbers. 
+
     print('Please select an operation below: \n')
 
     print('Addition \t-> \ta  \t\tGamma Function \t -> \tgamma \t\tComplementary Error Function \t -> \terfc \t\tComplex Hyperbolic Cosine \t ->\tccosh')
@@ -168,16 +182,16 @@ while True:
 
     elif selection == 'dist':
         print('\nPlease input 4 values to find the Euclidean distance between 2 points: \n')
-        a_1 = float(input())
-        a_2 = float(input())
-        b_1 = float(input())
-        b_2 = float(input())
+        a1 = float(input())
+        a2 = float(input())
+        b1 = float(input())
+        b2 = float(input())
 
-        x = [a_1, a_2]
-        y = [b_1, b_2]
+        x = [a1, a2]
+        y = [b1, b2]
 
         print('\nx =', x)
-        print('\ny =', y)
+        print('y =', y)
         
         print('\n',math.dist(x, y))
         print('\n')

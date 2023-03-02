@@ -1,12 +1,29 @@
 from tkinter import *
 
+# This is the main window for the menu of the Mad Libs Generator.
+# Initialises and opens a new window upon starting the program. This window 
+# does not utilise the resizable function as it is not necessary to resize 
+# a menu window when the only things showing on the menu are the title 
+# and the buttons leading to the 3 stories in the program and the QUIT
+# button.
+
 win = Tk()
 win.geometry('300x300')
 win.title("Thomas' Mad Libs Generator")
 win.resizable(False, False)
 Label(win, text = "Welcome to Thomas'\n Mad Libs Generator!", font = 'arial 20 bold').pack()
 Label(win, text = 'Select a story: ', font = 'arial 15 bold').place(x = 77, y = 80)
-    
+
+# Each function below contains the inner workings for the story inputs and outputs. In each function,
+# a new window is initialised and created for the user to input their words of choice for the mad lib
+# story they chose in the menu. This works by initialising several labels and entry functions for each
+# noun, verb or any other word that is given as option for the user to input. The place method determines
+# position of the labels and entry field boxes in the window upon its initialisation and creation. Upon
+# clicking on the CONFIRM button, the entry values inputted by the user are displayed respectively in the output function,
+# showing the final generated story with the user's input. This process is done via the command parameter of the button, which
+# performs the command upon pressing the button. Usually the command parameter is normally a function without parameters,
+# but since it is taking in entry values as parameters, the lambda keyword is used to facilitate this process.
+
 def story1():
     def story1out(nameEntry,placeEntry,place1Entry,entityEntry,entityNameEntry,methodEntry,feelingEntry):
         win1out = Tk()
