@@ -27,7 +27,7 @@ def generate_password(min_Length, numbers=True, special_characters=True):
     # access the numbers or special characters or both by
     # concatenating them to the characters variable during the 
     # password generation.
-    
+
     if numbers:
         characters += digits
     if special_characters:
@@ -55,5 +55,9 @@ def generate_password(min_Length, numbers=True, special_characters=True):
     
     return pwd
 
-pwd = generate_password(10)
+min_length = int(input('Enter the minimum length: '))
+has_number = input('Do you want to include numbers? (y/n): ').lower() == 'y'
+has_special = input('Do you want to include special characters? (y/n): ').lower() == 'y'
+
+pwd = generate_password(min_length, has_number, has_special)
 print(pwd)
