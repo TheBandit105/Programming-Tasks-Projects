@@ -14,7 +14,7 @@ def alarm(seconds):
 
         time_left = seconds - time_elapsed
         hours_left = time_left // 3600
-        minutes_left = time_left // 60
+        minutes_left = int(time_left // 60) % 60
         seconds_left = time_left % 60
 
         print(f"{CLEAR_AND_RETURN}Alarm will sound in: {hours_left:02d}:{minutes_left:02d}:{seconds_left:02d}")
