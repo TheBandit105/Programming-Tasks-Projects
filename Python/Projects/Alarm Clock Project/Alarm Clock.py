@@ -14,25 +14,26 @@ def alarm(seconds):
 
         time_left = seconds - time_elapsed
 
-        days_left = int(time_left // 86400)
+        weeks_left = int(time_left // 604800)
+        days_left = int(time_left // 86400) % 7
         hours_left = int(time_left // 3600) % 24
         minutes_left = int(time_left // 60) % 60
         seconds_left = time_left % 60
        
-        print(f"{CLEAR_AND_RETURN}Alarm will sound in: {days_left:02d}:{hours_left:02d}:{minutes_left:02d}:{seconds_left:02d}")
+        print(f"{CLEAR_AND_RETURN}Alarm will sound in: {weeks_left:02d}:{days_left:02d}:{hours_left:02d}:{minutes_left:02d}:{seconds_left:02d}")
         print(f"\nTotal seconds left: {seconds}")
 
     playsound('D:\\GITHUBREPOv2\\Programming-Tasks-Projects\\Python\\Projects\\Alarm Clock Project\\iPhone_Alarm_Original.mp3')
 
 # years =
 # months =
-# weeks =
+weeks = int(input("How many weeks to wait: "))
 days = int(input("How many days to wait: "))
 hours = int(input("How many hours to wait: "))
 minutes = int(input("How many minutes to wait: "))
 seconds = int(input("How many seconds to wait: "))
 
-total_seconds = days * 86400 + hours * 3600 + minutes * 60 + seconds
+total_seconds = weeks * 604800 + days * 86400 + hours * 3600 + minutes * 60 + seconds
 alarm(total_seconds)
 
 
