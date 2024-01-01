@@ -6,8 +6,8 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #4756df;
+  --bg-color: #000000;
+  --primary-color: #13c531;
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
@@ -123,6 +123,7 @@ nav ul li {
 
 .more-about {
   background-color: var(--bg-color);
+  color: white;
   padding: 1rem 6rem;
 }
 
@@ -157,7 +158,7 @@ nav ul li {
 }
 
 .icon-card {
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
