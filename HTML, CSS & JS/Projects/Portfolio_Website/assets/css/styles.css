@@ -92,15 +92,18 @@ nav ul li {
 }
 
 .hero {
+  background-color: var(--bg-color);
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
-  max-width: 68.75rem;
+  max-width: 175rem;
   margin: auto;
 }
 
 .hero img {
+  background-color: white;
   height: 37.5rem;
   width: 37.5rem;
 }
