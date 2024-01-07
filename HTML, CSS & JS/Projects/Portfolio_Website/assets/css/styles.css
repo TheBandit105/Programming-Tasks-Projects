@@ -141,10 +141,11 @@ nav ul li {
 }
 
 .skills {
-  max-width: 68.75rem;
+  max-height: 80rem;
+  max-width: 125rem;
   margin: auto;
   text-align: center;
-  margin-top: 2.5rem;
+  background-color: var(--bg-color);
 }
 
 .skill-header {
