@@ -92,6 +92,7 @@ nav ul li {
 }
 
 .hero {
+  height: 700px;
   background-color: var(--bg-color);
   color: white;
   display: flex;
