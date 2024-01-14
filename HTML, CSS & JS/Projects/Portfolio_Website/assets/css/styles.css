@@ -145,6 +145,7 @@ nav ul li {
 .skills {
   max-height: 80rem;
   max-width: 125rem;
+  padding: 296px 0;
   margin: auto;
   text-align: center;
   background-color: var(--bg-color);
@@ -174,7 +175,7 @@ nav ul li {
 
 .projects {
   background-color: var(--bg-color);
-  padding: 96px 0;
+  padding: 296px 0;
   margin-top: 2rem;
 }
 
