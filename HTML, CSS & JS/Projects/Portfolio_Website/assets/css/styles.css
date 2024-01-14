@@ -174,7 +174,7 @@ nav ul li {
 
 .projects {
   background-color: var(--bg-color);
-  padding: 32px 0;
+  padding: 96px 0;
   margin-top: 2rem;
 }
 
@@ -224,10 +224,14 @@ nav ul li {
 }
 
 .contact {
+  color: white;
+  background-color: var(--bg-color);
   margin-top: 2rem;
+  padding: 96px 0;
 }
 
 .contact h2 {
+  background-color: var(--bg-color);
   text-align: center;
   margin-bottom: var(--bottom-margin-2);
 }
