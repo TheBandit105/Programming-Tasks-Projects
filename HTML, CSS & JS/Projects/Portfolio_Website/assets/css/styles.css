@@ -94,7 +94,7 @@ nav ul li {
 .hero {
   height: 700px;
   background-color: var(--bg-color);
-  color: white;
+  color: var(--primary-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,7 +153,7 @@ nav ul li {
 
 .skill-header {
   margin-bottom: 1rem;
-  color: white;
+  color: var(--primary-color);
 }
 
 .skills-wrapper img {
@@ -191,7 +191,7 @@ nav ul li {
 }
 
 .projects-title {
-  color: white;
+  color: var(--primary-color);
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -207,12 +207,12 @@ nav ul li {
 }
 
 .project-title {
-  color: white;
+  color: var(--primary-color);
   margin-bottom: var(--bottom-margin);
 }
 
 .project-details {
-  color: white;
+  color: var(--primary-color);
   margin-bottom: var(--bottom-margin);
 }
 
@@ -225,7 +225,7 @@ nav ul li {
 }
 
 .contact {
-  color: white;
+  color: var(--primary-color);
   background-color: var(--bg-color);
   margin-top: 2rem;
   padding: 96px 0;
@@ -265,18 +265,32 @@ nav ul li {
   border: 2px outset var(--primary-color);
   font-size: 0.875rem;
   outline: none;
+  background-color: var(--bg-color);
+  color: white;
 }
 
-.input-field::placeholder {
+.input-field::placeholder, textarea:focuss {
   padding: 0.5rem;
   color: var(--primary-color);
+  background-color: black;
+}
+
+.input-field[type="text"]:focus, textarea:focus {
+  color: white;
+  background-color: black;
+}
+
+.input-field:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px black inset;
+  -webkit-text-fill-color: white;
 }
 
 .submit-btn {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  background-color: #fff;
+  color: white;
+  background-color: var(--bg-color);
   border: 2px solid var(--primary-color);
   border-radius: 5px;
   font-size: 1rem;
