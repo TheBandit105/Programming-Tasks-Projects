@@ -200,7 +200,7 @@ def credit():
     # contribute to the program in terms of experimentation.
 
     winCredit = Tk()
-    winCredit.geometry('700x600')
+    winCredit.geometry('900x550')
     winCredit.title('ERS Visual V4.0 - Credits')
 
     Label(winCredit, text = "CREDITS", font = 'arial 20 bold').pack()
@@ -215,7 +215,7 @@ def credit():
     Label(winCredit, text = "Libraries Used: ", font = 'arial 15').pack()
     Label(winCredit, text = "OpenCV - To access camera.", font = 'arial 15').pack()
     Label(winCredit, text = "Deepface - To detect emotions.", font = 'arial 15').pack()
-    Label(winCredit, text = "Tkinter - Provides overall graphical user interface (GUI) for the program, especially fo the menu.", font = 'arial 15').pack()
+    Label(winCredit, text = "Tkinter - Provides overall graphical user interface (GUI) for the program, especially for the menu.", font = 'arial 15').pack()
     Label(winCredit, text = "DateTime - Records time for data collection.", font = 'arial 15').pack()
     Label(winCredit, text = "CVZone - To replace background \n(using SelfiSegmentation function). ", font = 'arial 15').pack()
     Label(winCredit, text = "OS (This is for saving files for data collection)", font = 'arial 15').pack()
