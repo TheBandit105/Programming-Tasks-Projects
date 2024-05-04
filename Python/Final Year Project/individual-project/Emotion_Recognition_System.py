@@ -15,6 +15,7 @@ import cv2
 import cvzone
 import datetime
 import os
+import sys
 from tkinter import *
 from deepface import DeepFace
 from cvzone.SelfiSegmentationModule import SelfiSegmentation
@@ -26,6 +27,9 @@ win.title("ERS Visual V4.0")
 Label(win, text = "ERS VISUAL V4.0\n", font = 'arial 20 bold').pack()
 Label(win, text = "Emotion Recognition System", font = 'arial 20 bold').place(x = 50, y = 45)
 Label(win, text = 'MENU', font = 'arial 15 bold').place(x = 210, y = 90)
+
+def close_application():
+    sys.exit()
 
 def emotRegSys():
 
@@ -238,7 +242,7 @@ def about():
 Button(win, text = 'START', font = 'arial 15', command = emotRegSys, bg = '#4dff00').place(x = 200, y = 140)
 Button(win, text = 'ABOUT', font = 'arial 15', command = about, bg = 'yellow').place(x = 198, y = 200)
 Button(win, text = 'CREDITS', font = 'arial 15', command = credit, bg = 'cyan').place(x = 188, y = 260)
-Button(win, text = 'QUIT/EXIT', font = 'arial 15', command = quit, bg = 'red').place(x = 182, y = 320)
+Button(win, text = 'QUIT/EXIT', font = 'arial 15', command = close_application, bg = 'red').place(x = 182, y = 320)
 win.mainloop()
 
 # END
