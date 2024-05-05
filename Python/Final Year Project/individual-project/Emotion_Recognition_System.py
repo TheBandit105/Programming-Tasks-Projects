@@ -7,7 +7,7 @@
 
 # Author: Thomas Shavin Croos
 # Credits: See credit function.
-# Version: ERS Visual V3.0
+# Version: ERS Visual V4.0
 # Maintainer: Thomas Shavin Croos
 # Email: shavinminecraft@gmail.com
 
