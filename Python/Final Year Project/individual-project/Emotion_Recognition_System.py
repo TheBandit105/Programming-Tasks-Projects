@@ -9,12 +9,16 @@
 # Credits: See credit function.
 # Version: ERS Visual V4.0
 # Maintainer: Thomas Shavin Croos
-# Email: shavinminecraft@gmail.com
+# Emails: shavinminecraft@gmail.com, shavincroos@yahoo.co.uk
+
+# Any module imports commented out are optional ones and should not affect the main functionality of the program below. 
+# These modules are mainly required for experimental purposes, which was needed for my Final Year Project, but
+# feel free to uncomment them if you would like to use them for experimental purposes.
 
 import cv2
-import cvzone
-import datetime
-import os
+# import cvzone
+# import datetime
+# import os
 import sys
 from tkinter import *
 from deepface import DeepFace
