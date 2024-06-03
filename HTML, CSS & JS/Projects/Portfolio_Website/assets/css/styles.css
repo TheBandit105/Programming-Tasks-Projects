@@ -126,6 +126,11 @@ nav ul li {
   padding: 0.3rem 0;
 }
 
+.bio.animate__animated {
+  --animate-duration: 5s; /* Adjust the duration */
+  --animate-delay: 1s; /* Adjust the delay */
+}
+
 .more-about {
   background-color: var(--bg-color);
   color: white;
