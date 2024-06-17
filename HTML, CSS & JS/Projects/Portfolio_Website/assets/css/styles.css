@@ -107,14 +107,17 @@ nav ul li {
   background-color: white;
   height: 37.5rem;
   width: 37.5rem;
-  animation: fade-in-up 5s;
+  animation: fade-in-up 5s ease-in-out forwards;
 }
 
 .bio {
+  opacity: 0;
   width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  --animate-duration: 5s;  /* Adjust the duration */ 
+  --animate-delay: 2s;  /* Adjust the delay */
 }
 
 .bio h1 {
@@ -126,10 +129,13 @@ nav ul li {
   padding: 0.3rem 0;
 }
 
-.bio.animate__animated {
-  --animate-duration: 5s; /* Adjust the duration */
-  --animate-delay: 1s; /* Adjust the delay */
-}
+.animate__animated.animate__animated {
+  animation-duration: var(--animate-duration);
+  animation-delay: var(--animate-delay);
+  animation-name: fade-in-up;
+  animation-timing-function: ease-in-out; 
+  animation-fill-mode: forwards;
+} 
 
 .more-about {
   background-color: var(--bg-color);
@@ -346,7 +352,9 @@ footer {
 }
 
 @keyframes fade-in-up {
-  0% { opacity: 0; transform: translateY(50px); }
+  0% { opacity: 0; transform: translateY(20px); }
   100% { opacity: 1; transform: translateY(0); }
 }
+
+
 
