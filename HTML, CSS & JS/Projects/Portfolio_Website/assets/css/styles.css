@@ -163,8 +163,11 @@ nav ul li {
 }
 
 .skill-header {
+  opacity: 0;
   margin-bottom: 1rem;
   color: var(--primary-color);
+  --animate-duration: 5s;  /* Adjust the duration */ 
+  --animate-delay: -1s;  /* Adjust the delay */
 }
 
 .skills-wrapper img {
@@ -177,11 +180,20 @@ nav ul li {
 }
 
 .icon-card {
+  opacity: 0;
   background-color: var(--bg-color);
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
   margin: 10px;
+  transform: translateY(20px); /* Start slightly below */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  transition-delay: 2s;
+}
+
+.icon-card.fade-in-up {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Move to original position */
 }
 
 .projects {

@@ -91,10 +91,10 @@
     <!-- Skills section -->
 
     <section class="skills" id="skills">
-      <h2 class="skill-header">My Top Skills</h2>
+      <h2 class="skill-header animate__animated animate__fadeInUp">My Top Skills</h2>
 
       <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
+        <div class="first-set">
           <img
             src="assets/icons/icons8-html-5.svg"
             alt=""
@@ -115,7 +115,7 @@
           />
         </div>
 
-        <div class="second-set animate__animated animate__pulse">
+        <div class="second-set animate__animated animate__fadeInUp">
           <img
             src="assets/icons/python.svg"
             alt=""
@@ -310,6 +310,36 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+
+    <!-- Skill icons script -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const iconCards = document.querySelectorAll('.icon-card');
+    
+        // Create an IntersectionObserver
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+              // Delay based on index to create a staggered effect
+              setTimeout(() => {
+                entry.target.classList.add('fade-in-up');
+              }, index * 500); // 200ms delay for each subsequent icon
+              
+              // Optionally, unobserve once the element has been animated
+              observer.unobserve(entry.target);
+            }
+          });
+        }, {
+          threshold: 0.1 // Trigger when 10% of the icon is visible
+        });
+    
+        // Observe each icon card
+        iconCards.forEach(iconCard => {
+          observer.observe(iconCard);
+        });
+      });
+    </script>
 
   </body>
 </html>
