@@ -147,7 +147,7 @@
     <!-- Projects section -->
 
     <section class="projects" id="projects">
-      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <h2 class="projects-title animate__animated animate__fadeInUp">Some of my Recent Projects</h2>
       <div class="projects-container">
         <div class="project-container project-card">
           <img
@@ -338,6 +338,19 @@
         iconCards.forEach(iconCard => {
           observer.observe(iconCard);
         });
+      });
+    </script>
+
+    <!-- Reload page state script -->
+
+    <script>
+      if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual'; // Disables automatic scroll restoration
+      }
+    
+      // Scroll to the top when the page is reloaded
+      window.addEventListener('load', function() {
+        window.scrollTo(0, 0);
       });
     </script>
 

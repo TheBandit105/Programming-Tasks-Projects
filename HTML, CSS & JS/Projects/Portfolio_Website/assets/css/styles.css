@@ -224,6 +224,8 @@ nav ul li {
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
+  --animate-duration: 5s;  /* Adjust the duration */
+  --animate-delay: -1s;  /* Adjust the delay */
 }
 
 .project-container p {
@@ -246,6 +248,8 @@ nav ul li {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
+  --animate-duration: 5s;  /* Adjust the duration */
+  --animate-delay: -1s;  /* Adjust the delay */
 }
 
 .contact {
