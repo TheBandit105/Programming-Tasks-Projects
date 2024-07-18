@@ -295,29 +295,37 @@
 
     <script>
       document.addEventListener("DOMContentLoaded", function() {
-        const iconCards = document.querySelectorAll('.icon-card');
-    
-        // Create an IntersectionObserver
-        const observer = new IntersectionObserver(entries => {
-          entries.forEach((entry, index) => {
+        const iconCards = Array.from(document.querySelectorAll('.icon-card'));
+        let observer;
+      
+        // Function to handle the fade-in animation sequentially
+        const fadeInSequentially = (icons, index = 0) => {
+          if (index < icons.length) {
+            icons[index].classList.add('fade-in-up');
+            setTimeout(() => {
+              fadeInSequentially(icons, index + 1);
+            }, 500); // 500ms delay for each subsequent icon
+          }
+        };
+      
+        // IntersectionObserver callback
+        const observerCallback = (entries) => {
+          entries.forEach(entry => {
             if (entry.isIntersecting) {
-              // Delay based on index to create a staggered effect
-              setTimeout(() => {
-                entry.target.classList.add('fade-in-up');
-              }, index * 500); // 200ms delay for each subsequent icon
-              
-              // Optionally, unobserve once the element has been animated
               observer.unobserve(entry.target);
+              // Start the sequential animation from the first intersecting icon
+              fadeInSequentially(iconCards);
             }
           });
-        }, {
+        };
+      
+        // Create an IntersectionObserver
+        observer = new IntersectionObserver(observerCallback, {
           threshold: 0.1 // Trigger when 10% of the icon is visible
         });
-    
-        // Observe each icon card
-        iconCards.forEach(iconCard => {
-          observer.observe(iconCard);
-        });
+      
+        // Observe the first icon card to start the sequence
+        observer.observe(iconCards[0]);
       });
     </script>
 
