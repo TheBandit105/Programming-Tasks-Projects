@@ -196,6 +196,10 @@ nav ul li {
   transform: translateY(0); /* Move to original position */
 }
 
+.second-set {
+  animation-delay: 4s; /* Delay the animation by 2 seconds */
+}
+
 .projects {
   max-height: 80rem;
   max-width: 125rem;
