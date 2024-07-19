@@ -24,10 +24,15 @@ from tkinter import *
 from deepface import DeepFace
 from cvzone.SelfiSegmentationModule import SelfiSegmentation
 
-# These 6 lines of code will generate the window for the main menu for the emotion detection program.
+# These lines of code will generate the window for the main menu for the emotion detection program.
 win = Tk()
 win.geometry('500x400')
 win.title("ERS Visual V4.0")
+
+# Add logo to the window frame
+logo = PhotoImage(file='D:\GITHUBREPOv2\Programming-Tasks-Projects\Python\Final Year Project\individual-project\ERS logo.png')
+win.iconphoto(False, logo)
+
 Label(win, text = "ERS VISUAL V4.0\n", font = 'arial 20 bold').pack()
 Label(win, text = "Emotion Recognition System", font = 'arial 20 bold').place(x = 50, y = 45)
 Label(win, text = 'MENU', font = 'arial 15 bold').place(x = 210, y = 90)
