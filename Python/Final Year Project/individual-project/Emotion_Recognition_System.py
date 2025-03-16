@@ -80,7 +80,7 @@ def emotRegSys():
     # img_counter = 0
     
     # f initialises the frame number variable, starting at 0 each time the program is called.
-    f = 0
+    # f = 0
 
     # if statement checks are carried out if any internal webcam cannot be be either found or accessed.
     # When an internal webcam cannot be found or accessed, then any external webcam on the the system
