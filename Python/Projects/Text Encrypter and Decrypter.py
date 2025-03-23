@@ -1,3 +1,30 @@
+
+def encryptanddecrypt(wordEncryptDecrypt, key):
+
+    encryptedWord = ''
+    decryptedWord = ''
+
+    for letter in wordEncryptDecrypt:
+        if letter.isalpha():
+            if letter.islower():
+                encryptedWord += chr((ord(letter) - ord('a') + key) % 26 + ord('a'))
+            else:
+                encryptedWord += chr((ord(letter) - ord('A') + key) % 26 + ord('A'))
+        else:
+            encryptedWord += letter
+    
+    for letter in encryptedWord:
+        if letter.isalpha():
+            if letter.islower():
+                decryptedWord += chr((ord(letter) - ord('a') - key) % 26 + ord('a'))
+            else:
+                decryptedWord += chr((ord(letter) - ord('A') - key) % 26 + ord('A'))
+        else:
+            decryptedWord += letter
+
+    return f'\nEncrypted message: {encryptedWord} \nDecrypted message: {decryptedWord}\n'
+
+
 def encrypt(wordEncrypt, key):
     
     encryptedWord = ''
@@ -32,34 +59,46 @@ def main():
     
     while True:
 
-        selector = input('Do you wish to encrypt or decrypt the word (encrypt => e or E, decrypt => d or D)? Press q or Q to quit.')
+        selector = input('Do you wish to encrypt, decrypt or do both at the same time to the word (encrypt => e or E, decrypt => d or D, encrypt & decrypt => ed or ED)? Press q or Q to quit. ')
 
         if selector == 'E' or selector == 'e':
-            wordEncrypt = input('Please type the word you would like to encrypt: ')
+            wordEncrypt = input('\nPlease type the word you would like to encrypt: ')
             key = int(input('Input the key (0 - 25): '))
 
             if key > 25 or key < 0:
                 print('Invalid key, must be in the range 0 - 25, please try again.')
             else:
                 message_encrypted = encrypt(wordEncrypt, key)
-                print(f'Encrypted message: {message_encrypted}')
+                print(f'\nEncrypted message: {message_encrypted}\n')
 
         elif selector == 'D' or selector == 'd':
 
-            wordDecrypt = input('Please type the encrypted word you would like to decrypt: ')
+            wordDecrypt = input('\nPlease type the encrypted word you would like to decrypt: ')
             key = int(input('Input the key (0 - 25), but please ensure that it is the same key that you had used to orignally encrypt the message otherwise the encrypted word wil be decrypted incorrectly: '))
 
             if key > 25 or key < 0:
                 print('Invalid key, must be in the range 0 - 25, please try again.')
             else:
                 message_decrypted = decrypt(wordDecrypt, key)
-                print(f'Decrypted message: {message_decrypted}')
+                print(f'\nDecrypted message: {message_decrypted}\n')
+        
+        elif selector == 'ed' or selector == 'ED':
+
+            wordEncryptDecrypt = input('\nPlease type the word you would like to encrypt, then decrypt after: ')
+            key = int(input('Input the key (0 - 25): '))
+
+            if key > 25 or key < 0:
+                print('Invalid key, must be in the range 0 - 25, please try again.')
+            else:
+                message_encrypted_and_decrypted = encryptanddecrypt(wordEncryptDecrypt, key)
+                print(message_encrypted_and_decrypted)
 
         elif selector == 'Q' or selector == 'q':
+            print('\n')
             break
 
         else:
-            print('Invalid mode. Please try again!')
+            print('\nInvalid mode. Please try again!\n')
 
 if __name__ == "__main__":
     main()
