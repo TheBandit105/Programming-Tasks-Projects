@@ -14,6 +14,18 @@ def encrypt(wordEncrypt, key):
     return encryptedWord
 
 def decrypt(wordDecrypt, key):
+
+    decryptedWord = ''
+
+    for letter in wordDecrypt:
+        if letter.isalpha():
+            if letter.islower():
+                decryptedWord += chr((ord(letter) - ord('a') - key) % 26 + ord('a'))
+            else:
+                decryptedWord += chr((ord(letter) - ord('A') - key) % 26 + ord('A'))
+        else:
+            decryptedWord += letter
+
     return decryptedWord
 
 def main():
