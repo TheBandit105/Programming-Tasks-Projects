@@ -21,6 +21,7 @@ def load_key():
 key = load_key()
 fer = Fernet(key)
 
+# View the stored usernames and associated passwords.
 def view():
     if not os.path.exists('passwords.txt'):
         print("No stored passwords found.")
@@ -37,7 +38,7 @@ def view():
                 except Exception as e:
                     print(f'Error decrypting password for {user}: {e}')
 
-
+# Add a new username and password to the list.
 def add():
     name = input('Account Name: ')
     pwd = input('Password: ')
@@ -46,14 +47,19 @@ def add():
     with open('passwords.txt', 'a') as f:
         f.write(name + '|' + encrypted_pwd + '\n')
 
-while True:
-    mod = input("Would you like to add a new password or view existing ones (view, add)? Press q to quit. ").lower()
+# Main driver code.
+def main():
+    while True:
+        mod = input("Would you like to add a new password or view existing ones (view, add)? Press q to quit. ").lower()
 
-    if mod == 'q':
-        break
-    elif mod == 'view' or mod == 'V' or mod == 'v':
-        view()
-    elif mod == 'add' or mod == 'A' or mod == 'a':
-        add()
-    else:
-        print('Invalid mode.')
+        if mod == 'q':
+            break
+        elif mod == 'view' or mod == 'V' or mod == 'v':
+            view()
+        elif mod == 'add' or mod == 'A' or mod == 'a':
+            add()
+        else:
+            print('Invalid mode.')
+
+if __name__ == "__main__":
+    main()
