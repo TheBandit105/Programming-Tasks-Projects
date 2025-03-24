@@ -648,8 +648,7 @@ while True:
         print('\n',math.prod(a))
         print('\n')
 
-    elif selection == '' or selection == ' ' or selection == '  ' \
-         or selection == '   ' or selection == '    ' or selection == '     ':
+    elif selection.strip() == "" or selection is None:
         print('\nNo input given, please try again: \n')
         continue
 
