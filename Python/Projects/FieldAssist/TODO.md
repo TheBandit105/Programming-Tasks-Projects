@@ -8,7 +8,7 @@
 - Get BIOS version
 
 ## Disk Info
-- Collect C: drive usage
+- Collect C: drive usage - DONE
 - Support multiple drives later
 - Add SMART health (future)
 

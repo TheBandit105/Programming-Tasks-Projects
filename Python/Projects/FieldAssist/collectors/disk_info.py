@@ -1,5 +1,6 @@
 import pathlib
 import psutil
+from utils.conversions import bytes_to_gb
 def get_disk_info():
 
     drive = pathlib.Path.home().drive
@@ -7,8 +8,8 @@ def get_disk_info():
 
     return{
         "Drive": drive,
-        "Total Space": f"{disk.total / (1024 ** 3):.2f} GB",
-        "Used Space": f"{disk.used / (1024 ** 3):.2f} GB",
-        "Free Space": f"{disk.free / (1024 ** 3):.2f} GB",
+        "Total Space": f"{bytes_to_gb(disk.total)} GB",
+        "Used Space": f"{bytes_to_gb(disk.used)} GB",
+        "Free Space": f"{bytes_to_gb(disk.free)} GB",
         "Usage": disk.percent
     }
