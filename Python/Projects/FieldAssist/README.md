@@ -1,0 +1,26 @@
+# FieldAssist
+
+FieldAssist is a personal Python project designed to improve
+Windows diagnostics for IT Field Support.
+
+## Current Features
+
+- System Information
+- Disk Information
+
+## Planned Features
+
+- Memory Information
+- Network Information
+- Battery Information
+- BitLocker Status
+- Event Log Analysis
+- Device Health Checks
+
+## Learning Goals
+
+- Python
+- Project Structure
+- Modular Programming
+- Windows Administration
+- PowerShell Integration
