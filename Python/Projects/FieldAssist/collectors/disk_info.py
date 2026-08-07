@@ -45,5 +45,5 @@ def get_disk_info():
         "Total Space": f"{bytes_to_gb(disk.total)} GB",
         "Used Space": f"{bytes_to_gb(disk.used)} GB",
         "Free Space": f"{bytes_to_gb(disk.free)} GB",
-        "Usage": disk.percent
+        "Usage": f"{disk.percent} %"
     }
