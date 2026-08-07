@@ -1,5 +1,6 @@
 from collectors.system_info import get_system_info
 from collectors.disk_info import get_disk_info
+from collectors.memory_info import get_memory_info
 
 """
 FieldAssist
@@ -26,6 +27,7 @@ def main():
 
     system = get_system_info()
     disk = get_disk_info()
+    memory = get_memory_info()
 
     print("\n======================================================")
     print("FIELDASSIST DEVICE REPORT")
@@ -47,6 +49,14 @@ def main():
 
     for key, value in disk.items():
         print(f"{key}: {value}")
+
+        
+    
+    print("\nMEMORY INFORMATION")
+    print("-----------------------\n") 
+    
+    for key, value in memory.items():
+        print(f"{key}: {value}")    
     
 if __name__ == "__main__":
     main()
