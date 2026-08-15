@@ -7,10 +7,10 @@ Windows diagnostics for IT Field Support.
 
 - System Information
 - Disk Information
+- Memory Information
 
 ## Planned Features
 
-- Memory Information
 - Network Information
 - Battery Information
 - BitLocker Status
@@ -24,3 +24,11 @@ Windows diagnostics for IT Field Support.
 - Modular Programming
 - Windows Administration
 - PowerShell Integration
+- Git and Version Control
+- Third-Party Python Packages
+- Error Handling
+- Logging
+- Unit Testing
+- REST APIs
+- FastAPI
+- Vue.js

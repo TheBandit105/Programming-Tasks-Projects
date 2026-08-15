@@ -1,7 +1,3 @@
-import pathlib
-import psutil
-from utils.conversions import bytes_to_gb
-
 """
 Disk Information Collector
 
@@ -19,6 +15,11 @@ Future Improvements:
 - Include filesystem type.
 - Add SMART health information.
 """
+
+import pathlib
+import psutil
+from utils.conversions import bytes_to_gb
+
 def get_disk_info():
 
     """

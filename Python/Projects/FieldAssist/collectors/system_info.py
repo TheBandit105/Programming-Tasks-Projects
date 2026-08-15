@@ -1,8 +1,3 @@
-import socket
-import os
-import platform
-import sys
-
 """
 System Information Collector
 
@@ -18,6 +13,11 @@ Future Improvements:
 - Retrieve BIOS Version.
 - Retrieve Friendly CPU Name.
 """
+
+import socket
+import os
+import platform
+import sys
 
 # TODO:
 # Replace platform.system() and platform.processor()

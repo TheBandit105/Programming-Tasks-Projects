@@ -34,10 +34,10 @@
 
 ## Memory Information
 
-- [ ] Collect total RAM
-- [ ] Collect available RAM
-- [ ] Collect used RAM
-- [ ] Display memory usage %
+- [x] Collect total RAM
+- [x] Collect available RAM
+- [x] Collect used RAM
+- [x] Display memory usage %
 
 ---
 

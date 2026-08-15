@@ -50,7 +50,7 @@ def main():
     for key, value in disk.items():
         print(f"{key}: {value}")
 
-        
+    # Display the Memory Information section.    
     
     print("\nMEMORY INFORMATION")
     print("-----------------------\n") 
