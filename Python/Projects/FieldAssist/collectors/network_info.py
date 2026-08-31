@@ -5,18 +5,28 @@ import psutil
 
 ## print(socket.gethostbyname(hostname))
 
-interfaces = psutil.net_if_addrs()
-stats = psutil.net_if_stats()
+def get_network_info():
+   interfaces = psutil.net_if_addrs()
+   stats = psutil.net_if_stats()
 
-for name, addresses in interfaces.items():
-       print(name)
+   network_info = []
 
-       if stats[name].isup:
-          print('Status: Up')
-       else:
-          print('Status: Down') 
+   for name, addresses in interfaces.items():
+      for address in addresses:
+         if stats[name].isup or address.family == socket.AF_INET:
+            network_info.append([name, "Up", address.address])
+         else:
+            network_info.append([name, "Down", address.address])
 
-       for address in addresses:
-          if address.family == socket.AF_INET:
-               print(f'IPv4: {address.address}')
-               
+
+   return network_info
+
+   
+               #"Name": f"{name}"
+              # "Status": f"Up"
+               #"IPv4": f"{address.address}"
+        
+            
+              # "Name": f"{name}"
+              # "Status": f"Down"
+               #"IPv4": f"{address.address}"
