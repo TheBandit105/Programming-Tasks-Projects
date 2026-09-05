@@ -65,7 +65,10 @@ def main():
     print("\nNETWORK INFORMATION")
     print("-----------------------\n")
 
-    print(network)
+    for adapter in network:
+        for key, value in adapter.items():
+            print(f"{key}: {value}")
+        print()
     
 if __name__ == "__main__":
     main()
