@@ -43,12 +43,12 @@
 
 ## Network Information
 
-- [ ] IP address
-- [ ] Default gateway
+- [x] IP address
+- [x] Default gateway
 - [ ] DNS servers
 - [ ] MAC address
-- [ ] Network adapter(s)
-- [ ] Connection status
+- [x] Network adapter(s)
+- [x] Connection status
 
 ---
 

@@ -1,9 +1,34 @@
 import socket
 import psutil
+import subprocess
+import json
 
 ## hostname = socket.gethostname()
 
 ## print(socket.gethostbyname(hostname))
+
+def get_default_network():
+   command = """
+   $config = Get-NetIPConfiguration | Where-Object {
+    $_.IPv4DefaultGateway -ne $null -and
+    $_.NetAdapter.Status -eq "Up"
+}
+
+[PSCustomObject]@{
+    Name = $config.InterfaceAlias
+    IPv4 = $config.IPv4Address.IPAddress
+    Gateway = $config.IPv4DefaultGateway.NextHop
+} | ConvertTo-Json
+   """
+
+   result = subprocess.run(
+         ["powershell", "-Command", command],
+         capture_output=True,
+         text=True)
+
+   data = json.loads(result.stdout)
+   return data
+
 
 def get_network_info():
    interfaces = psutil.net_if_addrs()
@@ -26,9 +51,12 @@ def get_network_info():
                   "IPv4": address.address
                   })
          
-
-
    return network_info
+
+   
+if __name__ == "__main__":
+   print(get_default_network())
+
 
    
                #"Name": f"{name}"

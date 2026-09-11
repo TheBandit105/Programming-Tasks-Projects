@@ -1,7 +1,7 @@
 from collectors.system_info import get_system_info
 from collectors.disk_info import get_disk_info
 from collectors.memory_info import get_memory_info
-from collectors.network_info import get_network_info
+from collectors.network_info import get_network_info, get_default_network
 
 """
 FieldAssist
@@ -30,6 +30,7 @@ def main():
     disk = get_disk_info()
     memory = get_memory_info()
     network = get_network_info()
+    default_network = get_default_network()
 
     print("\n======================================================")
     print("FIELDASSIST DEVICE REPORT")
@@ -60,7 +61,7 @@ def main():
     for key, value in memory.items():
         print(f"{key}: {value}")    
 
-    # Display the Memory Information section.    
+    # Display the Network Information section.    
         
     print("\nNETWORK INFORMATION")
     print("-----------------------\n")
@@ -69,6 +70,17 @@ def main():
         for key, value in adapter.items():
             print(f"{key}: {value}")
         print()
+
+    # Display the Default Network Information section. 
+
+    print("\nDEFAULT NETWORK")
+    print("--------------------\n")
+
+    for key, value in default_network.items():
+        print(f"{key}: {value}")
+    print()
+
+    
     
 if __name__ == "__main__":
     main()
