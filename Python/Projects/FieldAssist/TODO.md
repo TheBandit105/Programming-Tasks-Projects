@@ -45,7 +45,7 @@
 
 - [x] IP address
 - [x] Default gateway
-- [ ] DNS servers
+- [x] DNS servers
 - [ ] MAC address
 - [x] Network adapter(s)
 - [x] Connection status
@@ -94,4 +94,6 @@
 - [ ] Logging
 - [ ] Exception handling
 - [ ] FastAPI
-- [ ] PowerShell integration
+- [x] PowerShell integration
+- [x] JSON parsing
+- [x] JSON and PowerShell data exchange

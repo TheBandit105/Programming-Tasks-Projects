@@ -77,7 +77,10 @@ def main():
     print("--------------------\n")
 
     for key, value in default_network.items():
-        print(f"{key}: {value}")
+        if key == "DNS":
+            print(f"{key}: {', '.join(value)}")
+        else:
+            print(f"{key}: {value}")
     print()
 
     

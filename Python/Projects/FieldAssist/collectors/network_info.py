@@ -18,6 +18,7 @@ def get_default_network():
     Name = $config.InterfaceAlias
     IPv4 = $config.IPv4Address.IPAddress
     Gateway = $config.IPv4DefaultGateway.NextHop
+    DNS = ($config.DNSServer | Where-Object AddressFamily -eq 2).ServerAddresses
 } | ConvertTo-Json
    """
 
