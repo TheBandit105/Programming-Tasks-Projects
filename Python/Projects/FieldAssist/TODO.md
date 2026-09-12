@@ -46,7 +46,7 @@
 - [x] IP address
 - [x] Default gateway
 - [x] DNS servers
-- [ ] MAC address
+- [x] MAC address
 - [x] Network adapter(s)
 - [x] Connection status
 

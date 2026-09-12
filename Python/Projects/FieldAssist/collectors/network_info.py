@@ -38,27 +38,34 @@ def get_network_info():
    network_info = []
 
    for name, addresses in interfaces.items():
-      for address in addresses:
 
-         # Ignore MAC and IPv6 entries for the current prototype.
+     ipv4 = None
+     mac = None
+
+     for address in addresses:
+
+         # Collect IPv4 and MAC addresses; ignore IPv6 for the current prototype.
          if address.family == socket.AF_INET:
+            ipv4 = address.address
 
-            # Convert the boolean interface state into a readable status.
-            status = "Up" if stats[name].isup else "Down"
-            
-            network_info.append({
-                  "Name": name, 
-                  "Status": status, 
-                  "IPv4": address.address
-                  })
+         if address.family == psutil.AF_LINK:
+            mac = address.address
+
+     # Convert the boolean interface state into a readable status.
+     status = "Up" if stats[name].isup else "Down"
+
+     network_info.append({
+            "Name": name, 
+            "Status": status, 
+            "IPv4": ipv4,
+            "MAC": mac
+            })
          
    return network_info
 
    
 if __name__ == "__main__":
    print(get_default_network())
-
-
    
                #"Name": f"{name}"
               # "Status": f"Up"
