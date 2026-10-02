@@ -2,6 +2,7 @@ from collectors.system_info import get_system_info
 from collectors.disk_info import get_disk_info
 from collectors.memory_info import get_memory_info
 from collectors.network_info import get_network_info, get_default_network
+from analysis.health_checks import check_disk_usage
 
 """
 FieldAssist
@@ -28,6 +29,7 @@ def main():
 
     system = get_system_info()
     disk = get_disk_info()
+    disk_status = check_disk_usage(disk)
     memory = get_memory_info()
     network = get_network_info()
     default_network = get_default_network()
@@ -51,7 +53,16 @@ def main():
     print("-----------------------\n") 
 
     for key, value in disk.items():
-        print(f"{key}: {value}")
+        if key == "Usage":
+            print(f"{key}: {value} %")
+        else:
+            print(f"{key}: {value}")
+
+
+    print("\nDISK HEALTH")
+    print("-----------------------\n") 
+
+    print(disk_status)
 
     # Display the Memory Information section.    
     
